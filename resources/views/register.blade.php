@@ -9,7 +9,7 @@
 
 <body style="background-image: url('/img/bg.jpg')">
     <div class="container mx-auto justify-center flex lg:block">
-        <div class="w-[350px] h-[50px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
+        <div class="w-[300px] h-[50px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
             <img src="{{ asset('img/logo-smp.png') }}" width="25" alt="">
             <h1 class="font-bold text-sm text-center ml-3">SMP NEGERI 2 LELEA INDRAMAYU</h1>
         </div>
@@ -24,7 +24,7 @@
                     <p class="text-slate-700 font-semibold text-sm lg:text-lg mt-2">Silahkan buat akun baru dan lengkapi
                         biodata
                         Anda
-                        dibawa ini
+                        dibawah ini
                         :</p>
                 </div>
 

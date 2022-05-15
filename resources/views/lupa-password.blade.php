@@ -9,7 +9,7 @@
 
 <body style="background-image: url('/img/bg.jpg')">
     <div class="container mx-auto justify-center flex lg:block">
-        <div class="w-[350px] h-[50px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
+        <div class="w-[300px] h-[50px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
             <img src="{{ asset('img/logo-smp.png') }}" width="25" alt="">
             <h1 class="font-bold text-sm text-center ml-3">SMP NEGERI 2 LELEA INDRAMAYU</h1>
         </div>
@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="w-full flex flex-wrap">
-                    <div class="lg:w-2/3 w-full px-4 mb-4">
+                    <div class="lg:w-1/2 w-full px-4 mb-4">
                         <label for="email" class="text-slate-900 text-xl">
                             Email Terdaftar
                         </label>
@@ -36,9 +36,9 @@
                     </div>
                 </div>
 
-                <div class="w-full lg:w-2/3 flex justify-center px-4">
+                <div class="w-full lg:w-2/3 px-4">
                     <button type="submit"
-                        class="py-3 px-10 bg-green-700 text-white text-lg rounded-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim
+                        class="py-3 px-10 bg-green-700 text-white text-lg rounded-full hover:scale-125 hover:opacity-80 hover:shadow-lg transition duration-500">Kirim
                         Kode</button>
                 </div>
             </div>
