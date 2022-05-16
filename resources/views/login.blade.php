@@ -7,12 +7,14 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body style="background-image: url('/img/bg.jpg')">
+<body class="bg-cover bg-center" style="background-image: url('/img/bg.png')">
     <div class="container mx-auto justify-center flex lg:block">
-        <div class="w-[300px] h-[50px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
-            <img src="{{ asset('img/logo-smp.png') }}" width="25" alt="">
-            <h1 class="font-bold text-sm text-center ml-3">SMP NEGERI 2 LELEA INDRAMAYU</h1>
-        </div>
+        <a href="{{ url('/') }}">
+            <div class="w-[300px] h-[40px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
+                <img src="{{ asset('img/logo-smp.png') }}" width="25" alt="">
+                <h1 class="font-bold text-sm text-center ml-3">SMP NEGERI 2 LELEA INDRAMAYU</h1>
+            </div>
+        </a>
     </div>
 
     <div class="container flex flex-wrap justify-center mt-10">
