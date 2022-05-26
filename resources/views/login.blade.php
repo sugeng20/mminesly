@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-cover bg-center" style="background-image: url('/img/bg.png')">
+<body class="bg-cover bg-no-repeat" style="background-image: url('/img/bg.png')">
     <div class="container mx-auto justify-center flex lg:block">
         <a href="{{ url('/') }}">
             <div class="w-[300px] h-[40px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
