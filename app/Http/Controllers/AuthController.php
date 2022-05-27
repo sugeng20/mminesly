@@ -20,4 +20,9 @@ class AuthController extends Controller
     {
         return view('lupa-password');
     }
+
+    public function authenticate(Request $request)
+    {
+        return redirect()->intended('siswa');
+    }
 }

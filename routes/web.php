@@ -18,5 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [AuthController::class, 'login']);
 Route::get('/register', [AuthController::class, 'register']);
 Route::get('/lupa-password', [AuthController::class, 'lupaPassword']);
+Route::post('/authenticate', [AuthController::class, 'authenticate']);
 
 Route::get('/siswa', [SiswaController::class, 'index']);
