@@ -1,8 +1,8 @@
 // Hamburger
 const hamburger = document.querySelector("#hamburger");
-const navMenu = document.querySelector("#nav-menu");
+const navMenu = document.querySelector("aside");
 
 hamburger.addEventListener("click", function () {
     hamburger.classList.toggle("hamburger-active");
-    navMenu.classList.toggle("hidden");
+    navMenu.classList.toggle("-ml-96");
 });

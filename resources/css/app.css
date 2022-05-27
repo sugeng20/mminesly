@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-white;
+    @apply w-[33px] h-[3px] my-2 block bg-white;
 }
 
 .hamburger-active > span:nth-child(1) {
