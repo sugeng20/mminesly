@@ -15,4 +15,9 @@ class SiswaController extends Controller
     {
         return view('pages.siswa.kompetensi-dasar');
     }
+
+    public function indikator()
+    {
+        return view('pages.siswa.indikator');
+    }
 }

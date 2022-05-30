@@ -29,7 +29,7 @@ Kompetensi Dasar
 
     <div
         class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
-        <a href="{{ url('/kompetensi-dasar') }}" class="hover:scale-125 duration-500 ease-in-out">
+        <a href="{{ url('/selamat-datang') }}" class="hover:scale-125 duration-500 ease-in-out">
             <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
         </a>
         <a href="{{ url('/indikator') }}" class="hover:scale-125 duration-500 ease-in-out">
