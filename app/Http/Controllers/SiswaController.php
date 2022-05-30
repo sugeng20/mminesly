@@ -8,6 +8,11 @@ class SiswaController extends Controller
 {
     public function index()
     {
-        return view('siswa');
+        return view('pages.siswa.selamat-datang');
+    }
+
+    public function kompetensiDasar()
+    {
+        return view('pages.siswa.kompetensi-dasar');
     }
 }

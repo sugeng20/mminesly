@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selamat Datang</title>
+    <title>@yield('title')</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,9 +17,9 @@
 
     <div class="flex">
         <aside
-            class="lg:w-96 w-80 h-screen bg-primary -ml-96 absolute lg:relative lg:ml-0 overflow-hidden transition duration-500 ease-in-out">
+            class="lg:w-96 w-80 h-screen bg-primary -translate-x-96 absolute lg:relative lg:translate-x-0 overflow-hidden transition duration-500 ease-in-out z-10">
             <div class="flex justify-end mr-8 mt-3 flex-wrap lg:justify-center lg:mr-0">
-                <a href="{{ url('/') }}">
+                <a href="{{ url('/selamat-datang') }}">
                     <div
                         class="lg:w-[270px] lg:h-[50px] w-[200px] h-[50px] bg-white rounded-full flex items-center justify-center shadow-lg">
                         <img src="{{ asset('img/logo-smp.png') }}" class="ml-3 lg:ml-0" width="25" alt="">
@@ -33,7 +33,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_kd.png') }}" width="30" class="group-hover:scale-150 duration-500"
                             alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <a href="{{ url('/kompetensi-dasar') }}" class="font-bold text-lg text-white ml-3">
                             Kompetensi Dasar
                         </a>
                     </li>
@@ -120,7 +120,7 @@
 
             <nav class="w-full bg-slate-100 h-[12vh] flex items-center">
 
-                <div class="ml-5 bg-cyan-800 px-2 rounded-lg lg:hidden absolute flex justify-center">
+                <div class="ml-5 bg-cyan-800 px-2 rounded-lg lg:hidden absolute flex justify-center z-20">
                     <button id="hamburger" name="hamburger" type="button" class="block">
                         <div>
                             <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
@@ -158,26 +158,10 @@
 
             </nav>
 
-            <article class="w-full bg-cyan-500 h-[88vh] bg-cover bg-center bg-no-repeat px-6 pt-6"
+            <article class="w-full bg-cyan-500 h-[88vh] bg-cover bg-center bg-no-repeat px-6 pt-10"
                 style="background-image: url('/img/bg.png')">
 
-                <div
-                    class="px-6 py-4 rounded-lg h-[68vh] bg-white shadow-lg w-full flex flex-wrap overflow-hidden overflow-y-scroll">
-                    <div class="lg:w-1/2 w-full px-6 m-auto">
-                        <h1
-                            class="text-center font-black leading-relaxed bg-gradient-to-r from-yellow-600 to-orange-500 text-transparent bg-clip-text text-3xl mb-6">
-                            Selamat Datang di Materi Interaksi Antar Negara Asia dan Negara Lain di Dunia
-                        </h1>
-                        <div class="flex justify-center mb-6">
-                            <a href="#"
-                                class="py-3 px-10 bg-green-700 font-bold text-white m-auto text-xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500">Mulai</a>
-                        </div>
-
-                    </div>
-                    <div class="lg:w-1/2 w-full px-6 m-auto">
-                        <img src="{{ asset('img/selamat_datang.png') }}" alt="">
-                    </div>
-                </div>
+                @yield('content')
 
             </article>
 

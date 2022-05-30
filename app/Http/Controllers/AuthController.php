@@ -8,21 +8,21 @@ class AuthController extends Controller
 {
     public function login()
     {
-        return view('login');
+        return view('pages.auth.login');
     }
 
     public function register()
     {
-        return view('register');
+        return view('pages.auth.register');
     }
 
     public function lupaPassword()
     {
-        return view('lupa-password');
+        return view('pages.auth.lupa-password');
     }
 
     public function authenticate(Request $request)
     {
-        return redirect()->intended('siswa');
+        return redirect()->intended('selamat-datang');
     }
 }

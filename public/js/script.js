@@ -4,5 +4,5 @@ const navMenu = document.querySelector("aside");
 
 hamburger.addEventListener("click", function () {
     hamburger.classList.toggle("hamburger-active");
-    navMenu.classList.toggle("-ml-96");
+    navMenu.classList.toggle("-translate-x-96");
 });
