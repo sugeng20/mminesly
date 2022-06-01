@@ -20,4 +20,8 @@ Route::get('/register', [AuthController::class, 'register']);
 Route::get('/lupa-password', [AuthController::class, 'lupaPassword']);
 Route::post('/authenticate', [AuthController::class, 'authenticate']);
 
-Route::get('/siswa', [SiswaController::class, 'index']);
+Route::get('/selamat-datang', [SiswaController::class, 'index']);
+Route::get('/kompetensi-dasar', [SiswaController::class, 'kompetensiDasar']);
+Route::get('/indikator', [SiswaController::class, 'indikator']);
+Route::get('/tujuan-pembelajaran', [SiswaController::class, 'tujuanPembelajaran']);
+Route::get('/petunjuk-penggunaan', [SiswaController::class, 'petunjukPenggunaan']);

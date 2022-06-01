@@ -6,6 +6,7 @@ module.exports = {
             padding: "2rem",
         },
         extend: {
+            fontFamily: { bubbleWater: ["bubbleWater"] },
             colors: {
                 primary: "#3394A2",
             },

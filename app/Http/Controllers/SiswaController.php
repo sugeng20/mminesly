@@ -8,6 +8,26 @@ class SiswaController extends Controller
 {
     public function index()
     {
-        return view('siswa');
+        return view('pages.siswa.selamat-datang');
+    }
+
+    public function kompetensiDasar()
+    {
+        return view('pages.siswa.kompetensi-dasar');
+    }
+
+    public function indikator()
+    {
+        return view('pages.siswa.indikator');
+    }
+
+    public function tujuanPembelajaran()
+    {
+        return view('pages.siswa.tujuan-pembelajaran');
+    }
+
+    public function petunjukPenggunaan()
+    {
+        return view('pages.siswa.petunjuk-penggunaan');
     }
 }

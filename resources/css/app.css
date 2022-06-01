@@ -21,3 +21,7 @@ body {
 .hamburger-active > span:nth-child(3) {
     @apply -rotate-45;
 }
+
+.text-style-primary {
+    @apply leading-loose text-sm text-slate-900 text-justify lg:text-lg lg:leading-loose;
+}
