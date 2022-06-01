@@ -82,7 +82,7 @@
                         <img src="{{ asset('/img/ic_materi.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
                         <a href="#" class="font-bold text-lg text-white ml-3">
-                            Materi Pembelajaran
+                            Materi Pembahasan
                         </a>
                     </li>
 
