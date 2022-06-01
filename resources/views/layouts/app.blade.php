@@ -13,9 +13,7 @@
     <style>
         @font-face {
             font-family: 'BubbleWater';
-            /*memberikan nama bebas untuk font*/
             src: url('fonts/PoetsenOne-Regular.ttf');
-            /*memanggil file font eksternalnya di folder nexa*/
         }
     </style>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -49,7 +47,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_indikator.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <a href="{{ url('/indikator') }}" class="font-bold text-lg text-white ml-3">
                             Indikator
                         </a>
                     </li>
@@ -57,7 +55,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_tujuan.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <a href="{{ url('/tujuan-pembelajaran') }}" class="font-bold text-lg text-white ml-3">
                             Tujuan Pembelajaran
                         </a>
                     </li>
@@ -65,7 +63,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_petunjuk.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <a href="{{ url('petunjuk-penggunaan') }}" class="font-bold text-lg text-white ml-3">
                             Petunjuk Penggunaan
                         </a>
                     </li>
