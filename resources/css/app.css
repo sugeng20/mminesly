@@ -23,5 +23,5 @@ body {
 }
 
 .text-style-primary {
-    @apply leading-loose text-sm text-slate-900 text-justify lg:text-lg lg:leading-loose;
+    @apply leading-loose text-sm text-slate-900 lg:text-lg lg:leading-loose;
 }
