@@ -14,7 +14,7 @@ Indikator
     <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
         <div class="w-full px-8 mb-10">
             <img src="{{ asset('img/indikator.png') }}" width="400" height="300" alt="" class="float-right ml-4">
-            <ol class="list-decimal leading-loose text-sm text-slate-900 text-justify lg:text-lg lg:leading-loose">
+            <ol class="list-decimal text-style-primary">
                 <li>
                     Menjelaskan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas, iklim, geologi,
                     rupa bumi, tata
@@ -28,7 +28,7 @@ Indikator
                 <li>
                     Memahami Sumber Daya Manusia di Benua Asia dan Benua Lainnya, misalnya jumlah, sebaran, dan
                     komposisi; pertumbuhan;
-                    kualitas (pendidikan, kesehatan, kesejahteraan serta keragaman etnik)
+                    kualitas (pendidikan, kesehatan, kesejahteraan serta keragaman etnik).
                 </li>
                 <li>
                     Mendeskripsikan bentuk distribusi potensi wilayah Benua Asia dan Benua lainnya.
@@ -48,7 +48,7 @@ Indikator
         <a href="{{ url('/kompetensi-dasar') }}" class="hover:scale-125 duration-500 ease-in-out">
             <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
         </a>
-        <a href="{{ url('/indikator') }}" class="hover:scale-125 duration-500 ease-in-out">
+        <a href="{{ url('/tujuan-pembelajaran') }}" class="hover:scale-125 duration-500 ease-in-out">
             <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
         </a>
     </div>

@@ -20,4 +20,14 @@ class SiswaController extends Controller
     {
         return view('pages.siswa.indikator');
     }
+
+    public function tujuanPembelajaran()
+    {
+        return view('pages.siswa.tujuan-pembelajaran');
+    }
+
+    public function petunjukPenggunaan()
+    {
+        return view('pages.siswa.petunjuk-penggunaan');
+    }
 }

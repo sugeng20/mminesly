@@ -23,3 +23,5 @@ Route::post('/authenticate', [AuthController::class, 'authenticate']);
 Route::get('/selamat-datang', [SiswaController::class, 'index']);
 Route::get('/kompetensi-dasar', [SiswaController::class, 'kompetensiDasar']);
 Route::get('/indikator', [SiswaController::class, 'indikator']);
+Route::get('/tujuan-pembelajaran', [SiswaController::class, 'tujuanPembelajaran']);
+Route::get('/petunjuk-penggunaan', [SiswaController::class, 'petunjukPenggunaan']);

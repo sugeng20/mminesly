@@ -14,7 +14,7 @@ Kompetensi Dasar
 
     <div class="overflow-y-scroll mt-10 relative flex flex-wrap h-[55vh] overflow-hidden">
         <div class="w-full lg:w-1/2 px-1 flex justify-center m-auto">
-            <P class="leading-loose text-center text-sm text-slate-900 md:text-lg lg:text-xl lg:leading-loose">
+            <P class="text-center leading-loose text-sm text-slate-900 md:text-lg lg:text-xl lg:leading-loose">
                 Menelaah perubahan keruangan dan interaksi antar ruang negara-negara Asia dan benua lainnya yang
                 diakibatkan faktor alam,
                 manusia dan pengaruhnya terhadap keberlangsungan kehidupan manusia dalam ekonomi, sosial, pendidikan dan
