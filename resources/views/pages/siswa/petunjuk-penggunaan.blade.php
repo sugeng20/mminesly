@@ -25,7 +25,7 @@ Petunjuk Penggunaan
             </div>
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_home.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/home.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">HOME</h2>
@@ -34,7 +34,7 @@ Petunjuk Penggunaan
             </div>
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_user.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/profil.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">PROFIL</h2>
@@ -43,7 +43,7 @@ Petunjuk Penggunaan
             </div>
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_sound.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/audio_on.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">AUDIO ON</h2>
@@ -54,7 +54,7 @@ Petunjuk Penggunaan
             </div>
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/sound_off.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/audio_off.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">AUDIO OFF</h2>
@@ -66,7 +66,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/next.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">NEXT</h2>
@@ -77,7 +77,7 @@ Petunjuk Penggunaan
             </div>
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/back.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">BACK</h2>
@@ -89,7 +89,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/kompetensi_dasar.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">KOMPETENSI DASAR</h2>
@@ -103,7 +103,7 @@ Petunjuk Penggunaan
             </div>
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/indikator.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">INDIKATOR</h2>
@@ -117,7 +117,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/tujuan_pembelajaran.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">TUJUAN PEMBELAJARAN</h2>
@@ -131,7 +131,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/petunjuk_penggunaan.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">PETUNJUK PENGGUNAAN</h2>
@@ -145,7 +145,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/peta_konsep.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">PETA KONSEP</h2>
@@ -158,7 +158,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/materi_pembahasan.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">MATERI PEMBAHASAN</h2>
@@ -170,7 +170,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/forum_diskusi.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">FORUM DISKUSI</h2>
@@ -182,7 +182,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/evaluasi.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">EVALUASI</h2>
@@ -195,7 +195,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/referensi.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">REFERENSI</h2>
@@ -209,7 +209,7 @@ Petunjuk Penggunaan
 
             <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
                 <div class="w-1/5">
-                    <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+                    <img src="{{ asset('img/petunjuk/profil_pengembang.png') }}" alt="" width="60">
                 </div>
                 <div class="w-4/5">
                     <h2 class="text-style-primary font-bold">PROFIL PENGEMBANG</h2>

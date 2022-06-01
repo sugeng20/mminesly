@@ -8,7 +8,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-cover" style="background-image: url('/img/bg.png')">
+<body class="bg-cover bg-center lg:bg-top" style="background-image: url('/img/bg-front.png')">
     <div class="container mx-auto justify-center flex lg:block">
         <a href="{{ url('/') }}">
             <div class="w-[300px] h-[40px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">

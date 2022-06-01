@@ -8,7 +8,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-cover" style="background-image: url('/img/bg.png')">
+<body class="bg-cover bg-center lg:bg-top" style="background-image: url('/img/bg-front.png')">
     <div class="container mx-auto justify-center flex lg:block">
         <a href="{{ url('/') }}">
             <div class="w-[300px] h-[40px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
@@ -18,14 +18,14 @@
         </a>
     </div>
 
-    <div class="container flex flex-wrap justify-center mt-6">
+    <div class="container flex flex-wrap mt-6">
 
         <div class="w-full">
-            <div class="w-full h-min-[500px] bg-slate-50 shadow-xl px-4 py-6 rounded-3xl m-auto">
+            <div class="w-4/5 h-min-[500px] bg-slate-50 shadow-xl px-4 py-6 rounded-3xl">
 
                 <div class="w-full flex flex-wrap">
 
-                    <div class="lg:w-1/2 w-full px-4 mb-4">
+                    <div class="lg:w-2/3 w-full px-4 mb-4">
                         <h1 class="text-slate-900 lg:text-3xl text-2xl font-bold">Lupa Password? Jangan Khawatir!</h1>
                         <p class="text-slate-700 font-semibold text-xs lg:text-lg mt-4">Silahkan masukan email Anda yang
                             telah
@@ -44,7 +44,7 @@
                                 Kode</button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-1/2 flex justify-center">
+                    <div class="w-full lg:w-1/3 flex justify-center">
                         <img src="{{ asset('img/lupa-password.png') }}" width="300" alt="">
                     </div>
 

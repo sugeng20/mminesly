@@ -8,7 +8,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="bg-cover bg-no-repeat" style="background-image: url('/img/bg.png')">
+<body class="bg-cover bg-center lg:bg-top" style="background-image: url('/img/bg-front.png')">
     <div class="container mx-auto justify-center flex lg:block">
         <a href="{{ url('/') }}">
             <div class="w-[300px] h-[40px] bg-white rounded-full mt-8 flex items-center justify-center shadow-lg">
@@ -18,12 +18,12 @@
         </a>
     </div>
 
-    <div class="container flex flex-wrap justify-center mt-10">
-        <div class="w-full lg:w-2/3 ">
-            <img src="{{ asset('img/hero.png') }}" width="700" alt="#">
+    <div class="container flex flex-wrap justify-center">
+        <div class="w-full lg:w-3/5 m-auto lg:mt-3 mt-5">
+            <img src="{{ asset('img/hero.png') }}" width="600" alt="#">
         </div>
-        <div class="w-full lg:w-1/3">
-            <div class="w-full h-[320px] mt-8 bg-slate-50 shadow-xl px-4 py-10 rounded-3xl m-auto">
+        <div class="w-full lg:w-2/5">
+            <div class="w-full lg:w-[400px] h-[320px] mt-8 bg-slate-50 shadow-xl px-4 py-10 rounded-3xl">
                 <form action="{{ url('/authenticate') }}" method="POST">
                     @csrf
                     <div class="w-full px-4 mb-4">
@@ -51,11 +51,15 @@
                             class="py-3 px-10 bg-green-700 text-white m-auto text-lg rounded-full hover:opacity-80 hover:shadow-lg transition duration-500">Login</button>
                     </div>
                 </form>
+
             </div>
-            <div class="w-full flex items-center mt-3 pb-5">
-                <a href="{{ url('lupa-password') }}" class="font-bold">Lupa Password</a>
-                <a href="{{ url('register') }}" class="flex ml-auto font-bold">Daftar Baru</a>
+
+            <div class="w-full lg:w-[400px] flex items-center mt-3 pb-5">
+                <a href="{{ url('lupa-password') }}" class="font-bold text-white lg:text-black">Lupa Password</a>
+                <a href="{{ url('register') }}" class="flex ml-auto font-bold text-white lg:text-black">Daftar Baru</a>
             </div>
+
+
         </div>
     </div>
 
