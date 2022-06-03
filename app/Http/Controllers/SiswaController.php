@@ -30,4 +30,14 @@ class SiswaController extends Controller
     {
         return view('pages.siswa.petunjuk-penggunaan');
     }
+
+    public function petaKonsep()
+    {
+        return view('pages.siswa.peta-konsep');
+    }
+
+    public function materiPembahasan()
+    {
+        return view('pages.siswa.materi-pembahasan');
+    }
 }

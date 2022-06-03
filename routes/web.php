@@ -25,3 +25,5 @@ Route::get('/kompetensi-dasar', [SiswaController::class, 'kompetensiDasar']);
 Route::get('/indikator', [SiswaController::class, 'indikator']);
 Route::get('/tujuan-pembelajaran', [SiswaController::class, 'tujuanPembelajaran']);
 Route::get('/petunjuk-penggunaan', [SiswaController::class, 'petunjukPenggunaan']);
+Route::get('/peta-konsep', [SiswaController::class, 'petaKonsep']);
+Route::get('/materi-pembahasan', [SiswaController::class, 'materiPembahasan']);

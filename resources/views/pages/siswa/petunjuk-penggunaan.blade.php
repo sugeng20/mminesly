@@ -230,7 +230,7 @@ Petunjuk Penggunaan
         <a href="{{ url('/indikator') }}" class="hover:scale-125 duration-500 ease-in-out">
             <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
         </a>
-        <a href="{{ url('/petunjuk-penggunaan') }}" class="hover:scale-125 duration-500 ease-in-out">
+        <a href="{{ url('/peta-konsep') }}" class="hover:scale-125 duration-500 ease-in-out">
             <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
         </a>
     </div>

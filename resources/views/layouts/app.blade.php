@@ -71,7 +71,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_peta.png') }}" width="30" class="group-hover:scale-150 duration-500"
                             alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <a href="{{ url('peta-konsep') }}" class="font-bold text-lg text-white ml-3">
                             Peta Konsep
                         </a>
                     </li>
@@ -79,7 +79,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_materi.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <a href="{{ url('materi-pembahasan') }}" class="font-bold text-lg text-white ml-3">
                             Materi Pembahasan
                         </a>
                     </li>
