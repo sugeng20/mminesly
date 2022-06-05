@@ -12,7 +12,7 @@ Selamat Datang
             Selamat Datang di Materi Interaksi Antar Negara Asia dan Negara Lain di Dunia
         </h1>
         <div class="flex justify-center mb-6">
-            <a href="{{ url('kompetensi-dasar') }}"
+            <a href="{{ url('materi') }}"
                 class="py-3 px-10 bg-[#4BB15E] text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500 font-bubbleWater">Mulai</a>
         </div>
 
@@ -22,3 +22,9 @@ Selamat Datang
     </div>
 </div>
 @endsection
+
+@push('script')
+<script>
+    localStorage.setItem('halaman', 1);
+</script>
+@endpush

@@ -20,10 +20,44 @@ Route::get('/register', [AuthController::class, 'register']);
 Route::get('/lupa-password', [AuthController::class, 'lupaPassword']);
 Route::post('/authenticate', [AuthController::class, 'authenticate']);
 
-Route::get('/selamat-datang', [SiswaController::class, 'index']);
-Route::get('/kompetensi-dasar', [SiswaController::class, 'kompetensiDasar']);
-Route::get('/indikator', [SiswaController::class, 'indikator']);
-Route::get('/tujuan-pembelajaran', [SiswaController::class, 'tujuanPembelajaran']);
-Route::get('/petunjuk-penggunaan', [SiswaController::class, 'petunjukPenggunaan']);
-Route::get('/peta-konsep', [SiswaController::class, 'petaKonsep']);
-Route::get('/materi-pembahasan', [SiswaController::class, 'materiPembahasan']);
+Route::get('/materi', [SiswaController::class, 'index']);
+
+Route::get('/selamat-datang', function() {
+    return view('pages.siswa.selamat-datang');
+});
+Route::get('/halaman-1', function() {
+    return view('pages.siswa.kompetensi-dasar');
+});
+Route::get('/halaman-2', function() {
+    return view('pages.siswa.indikator');
+});
+Route::get('/halaman-3', function() {
+    return view('pages.siswa.tujuan-pembelajaran');
+});
+Route::get('/halaman-4', function() {
+    return view('pages.siswa.petunjuk-penggunaan');
+});
+Route::get('/halaman-5', function() {
+    return view('pages.siswa.peta-konsep');
+});
+Route::get('/halaman-6', function() {
+    return view('pages.siswa.materi-pembahasan');
+});
+
+// Sub Materi 1
+Route::get('/halaman-7', function() {
+    return view('pages.siswa.sub-materi-1.benua-asia');
+});
+Route::get('/halaman-8', function() {
+    return view('pages.siswa.sub-materi-1.benua-amerika');
+});
+Route::get('/halaman-9', function() {
+    return view('pages.siswa.sub-materi-1.benua-eropa');
+});
+Route::get('/halaman-10', function() {
+    return view('pages.siswa.sub-materi-1.benua-afrika');
+});
+Route::get('/halaman-11', function() {
+    return view('pages.siswa.sub-materi-1.benua-australia');
+});
+

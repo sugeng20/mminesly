@@ -8,7 +8,7 @@ class SiswaController extends Controller
 {
     public function index()
     {
-        return view('pages.siswa.selamat-datang');
+        return view('pages.siswa.index');
     }
 
     public function kompetensiDasar()
@@ -38,6 +38,21 @@ class SiswaController extends Controller
 
     public function materiPembahasan()
     {
-        return view('pages.siswa.materi-pembahasan');
+        
+    }
+
+    public function subMateri1()
+    {
+        return view('pages.siswa.sub-materi-1');
+    }
+
+    public function materi1()
+    {
+        return view('pages.siswa.sub-materi-1.materi-1');
+    }
+
+    public function materi2()
+    {
+        return view('pages.siswa.sub-materi-1.materi-2');
     }
 }

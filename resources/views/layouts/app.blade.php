@@ -39,49 +39,52 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_kd.png') }}" width="30" class="group-hover:scale-150 duration-500"
                             alt="">
-                        <a href="{{ url('/kompetensi-dasar') }}" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(1)" id="kompetensi_dasar" class="font-bold text-lg text-white ml-3">
                             Kompetensi Dasar
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_indikator.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="{{ url('/indikator') }}" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(2)" id="indikator" class="font-bold text-lg text-white ml-3">
                             Indikator
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_tujuan.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="{{ url('/tujuan-pembelajaran') }}" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(3)" id="tujuan_pembelajaran"
+                            class="font-bold text-lg text-white ml-3">
                             Tujuan Pembelajaran
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_petunjuk.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="{{ url('petunjuk-penggunaan') }}" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(4)" id="petunjuk_penggunaan"
+                            class="font-bold text-lg text-white ml-3">
                             Petunjuk Penggunaan
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_peta.png') }}" width="30" class="group-hover:scale-150 duration-500"
                             alt="">
-                        <a href="{{ url('peta-konsep') }}" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(5)" id="peta_konsep" class="font-bold text-lg text-white ml-3">
                             Peta Konsep
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_materi.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="{{ url('materi-pembahasan') }}" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(6)" id="materi_pembahasan"
+                            class="font-bold text-lg text-white ml-3">
                             Materi Pembahasan
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
@@ -161,7 +164,6 @@
                         </a>
                     </li>
                 </ul>
-
             </nav>
 
             <article class="w-full bg-cyan-500 h-[88vh] bg-cover bg-center bg-no-repeat px-6 pt-10"
@@ -173,7 +175,10 @@
 
         </section>
     </div>
+
+    <script src="{{ asset('/js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('/js/script.js') }}"></script>
+    @stack('script')
 </body>
 
 </html>
