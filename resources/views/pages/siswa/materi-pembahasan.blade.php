@@ -69,7 +69,7 @@ Materi Pembahasan
                             <span class="font-bold text-2xl text-white">SUB MATERI 4</span>
                         </div>
                         <div class="flex justify-center">
-                            <img src="{{ asset('img/materi/sub_materi_1.png') }}" class="w-60 mt-6 px-4" alt="">
+                            <img src="{{ asset('img/materi/sub_materi_4.png') }}" class="w-60 mt-6 px-4" alt="">
                         </div>
                         <p class="text-center px-2 font-bubbleWater mt-6">
                             Distribusi Potensi Wilayah Benua Asia dan Benua Lainnya
@@ -85,7 +85,7 @@ Materi Pembahasan
                             <span class="font-bold text-2xl text-white">SUB MATERI 5</span>
                         </div>
                         <div class="flex justify-center">
-                            <img src="{{ asset('img/materi/sub_materi_1.png') }}" class="w-60 mt-6 px-4" alt="">
+                            <img src="{{ asset('img/materi/sub_materi_5.png') }}" class="w-60 mt-6 px-4" alt="">
                         </div>
                         <p class="text-center px-2 font-bubbleWater mt-6">
                             Dampak interaksi antarruang Asia dan Benua Lainnya

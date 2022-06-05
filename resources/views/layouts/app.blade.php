@@ -137,7 +137,7 @@
                 </div>
                 <ul class="ml-auto mr-8 flex">
                     <li class="mr-2 lg:mr-6 group">
-                        <a href="#">
+                        <a href="#" onclick="bunyi()">
                             <img src="{{ asset('img/ic_home.png') }}" class="group-hover:scale-125 duration-500"
                                 width="50" alt="">
                         </a>
@@ -174,6 +174,13 @@
         </section>
     </div>
     <script src="{{ asset('/js/script.js') }}"></script>
+    <script>
+        // var bel = new Audio('https://www.meramukoding.com/wp-content/uploads/2020/05/doorbell.mp3');
+        // function bunyi() {
+        //     bel.currentTime = 0;
+        //     bel.play();
+        // }
+    </script>
 </body>
 
 </html>
