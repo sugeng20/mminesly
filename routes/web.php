@@ -240,30 +240,56 @@ Route::get('/halaman-65', function() {
 });
 
 // Sub materi 3
-Route::get('/halaman-65', function() {
+Route::get('/halaman-66', function() {
     return view('pages.siswa.sub-materi-3.dinamika-penduduk-asia');
 });
-Route::get('/halaman-66', function() {
+Route::get('/halaman-67', function() {
     return view('pages.siswa.sub-materi-3.dinamika-penduduk-amerika');
 });
-Route::get('/halaman-67', function() {
+Route::get('/halaman-68', function() {
     return view('pages.siswa.sub-materi-3.dinamika-penduduk-eropa');
 });
-Route::get('/halaman-68', function() {
+Route::get('/halaman-69', function() {
     return view('pages.siswa.sub-materi-3.dinamika-penduduk-afrika');
 });
-Route::get('/halaman-69', function() {
+Route::get('/halaman-70', function() {
     return view('pages.siswa.sub-materi-3.dinamika-penduduk-australia');
 });
 
 // Sub Materi 4
-Route::get('/halaman-70', function() {
+Route::get('/halaman-71', function() {
     return view('pages.siswa.sub-materi-4.distribusi-potensi-wilayah-penduduk');
 });
-Route::get('/halaman-71', function() {
+Route::get('/halaman-72', function() {
     return view('pages.siswa.sub-materi-4.distribusi-potensi-sosial');
 });
-Route::get('/halaman-72', function() {
+Route::get('/halaman-73', function() {
     return view('pages.siswa.sub-materi-4.distribusi-potensi-budaya');
+});
+
+// Sub Materi 5
+Route::get('/halaman-74', function() {
+    return view('pages.siswa.sub-materi-5.konsep-dampak-interaksi-anatarruang-benua-asia-dan-benua-lainnya');
+});
+Route::get('/halaman-75', function() {
+    return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-ekonomi');
+});
+Route::get('/halaman-76', function() {
+    return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-sosial');
+});
+Route::get('/halaman-77', function() {
+    return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-budaya');
+});
+Route::get('/halaman-78', function() {
+    return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-politik');
+});
+Route::get('/halaman-79', function() {
+    return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-pendidikan');
+});
+Route::get('/halaman-80', function() {
+    return view('pages.siswa.sub-materi-5.distribusi-potensi-budaya');
+});
+Route::get('/halaman-81', function() {
+    return view('pages.siswa.sub-materi-5.distribusi-potensi-budaya');
 });
 
