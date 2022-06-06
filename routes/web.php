@@ -255,3 +255,15 @@ Route::get('/halaman-68', function() {
 Route::get('/halaman-69', function() {
     return view('pages.siswa.sub-materi-3.dinamika-penduduk-australia');
 });
+
+// Sub Materi 4
+Route::get('/halaman-70', function() {
+    return view('pages.siswa.sub-materi-4.distribusi-potensi-wilayah-penduduk');
+});
+Route::get('/halaman-71', function() {
+    return view('pages.siswa.sub-materi-4.distribusi-potensi-sosial');
+});
+Route::get('/halaman-72', function() {
+    return view('pages.siswa.sub-materi-4.distribusi-potensi-budaya');
+});
+
