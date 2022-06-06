@@ -238,3 +238,20 @@ Route::get('/halaman-64', function() {
 Route::get('/halaman-65', function() {
     return view('pages.siswa.sub-materi-2.benua-australia.bidang-pertambangan');
 });
+
+// Sub materi 3
+Route::get('/halaman-65', function() {
+    return view('pages.siswa.sub-materi-3.dinamika-penduduk-asia');
+});
+Route::get('/halaman-66', function() {
+    return view('pages.siswa.sub-materi-3.dinamika-penduduk-amerika');
+});
+Route::get('/halaman-67', function() {
+    return view('pages.siswa.sub-materi-3.dinamika-penduduk-eropa');
+});
+Route::get('/halaman-68', function() {
+    return view('pages.siswa.sub-materi-3.dinamika-penduduk-afrika');
+});
+Route::get('/halaman-69', function() {
+    return view('pages.siswa.sub-materi-3.dinamika-penduduk-australia');
+});
