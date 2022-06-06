@@ -60,4 +60,22 @@ Route::get('/halaman-10', function() {
 Route::get('/halaman-11', function() {
     return view('pages.siswa.sub-materi-1.benua-australia');
 });
+Route::get('/halaman-12', function() {
+    return view('pages.siswa.sub-materi-1.jepang-lokasi');
+});
+Route::get('/halaman-13', function() {
+    return view('pages.siswa.sub-materi-1.jepang-iklim');
+});
+Route::get('/halaman-14', function() {
+    return view('pages.siswa.sub-materi-1.jepang-bentuk');
+});
+Route::get('/halaman-15', function() {
+    return view('pages.siswa.sub-materi-1.jepang-geologi');
+});
+Route::get('/halaman-16', function() {
+    return view('pages.siswa.sub-materi-1.jepang-flora-fauna');
+});
+Route::get('/halaman-17', function() {
+    return view('pages.siswa.sub-materi-1.jepang-kondisi');
+});
 
