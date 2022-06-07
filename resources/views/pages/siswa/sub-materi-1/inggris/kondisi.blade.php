@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">6. Kondisi Penduduk</p>
+        <p class="text-title">6. Kondisi Penduduk</p>
+        <img src="{{ asset('img/materi/inggris/kondisi.png') }}" width="500" alt="" class="float-right ml-4">
         <p class="text-style-primary">
             Penduduk asli Inggris terdiri atas dua kelompok, yaitu Bangsa Kelt (Skotlandia, Irlandia, dan Wales) dan
             Bangsa Jerman

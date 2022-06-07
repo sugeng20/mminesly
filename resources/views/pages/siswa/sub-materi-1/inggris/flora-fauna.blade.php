@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">5. Flora Fauna</p>
+        <img src="{{ asset('img/materi/inggris/flora-fauna.png') }}" width="380" alt="" class="float-right ml-4">
+        <p class="text-title">5. Flora Fauna</p>
         <p class="text-style-primary">
             Flora yang dapat dijumpai di Inggris adalah pohon ek dan elm, horse chesnut, spruce Norwegia, larch Jepang,
             dan fir

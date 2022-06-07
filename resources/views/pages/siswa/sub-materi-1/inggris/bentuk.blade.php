@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">3. Bentuk Muka Bumi</p>
+        <img src="{{ asset('img/materi/inggris/bentuk.png') }}" width="220" alt="" class="float-right ml-4">
+        <p class="text-title">3. Bentuk Muka Bumi</p>
         <p class="text-style-primary">
             Wilayah Inggris terbagi menjadi dua bagian, yaitu wilayah yang bergunung-gunung di bagian utara dan daratan
             rendah yang

@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">4. Geologi</p>
+        <img src="{{ asset('img/materi/mesir/geologi.png') }}" width="400" alt="" class="float-right ml-4">
+        <p class="text-title">4. Geologi</p>
         <p class="text-style-primary">
             Mesir memiliki sumber daya alam berupa minyak dan gas, bijih besi,posfat, mangan, lempung, gipsum, talk,
             asbes, timah,

@@ -6,8 +6,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">1. Lokasi</p>
+        <p class="text-title">1. Lokasi</p>
+        <img src="{{ asset('img/materi/amerika/lokasi.png') }}" width="400" alt="" class="float-right ml-4">
         <p class="text-style-primary">
             Amerika Serikat terletak pada 24°33’LU-70°23’LU dan 172°27’BB-66°51’BB. Negara ini berbatasan dengan Kanada
             di sebelah

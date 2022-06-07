@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">1. Lokasi</p>
+        <img src="{{ asset('img/materi/australia/lokasi.png') }}" width="350" alt="" class="float-right ml-4">
+        <p class="text-title">1. Lokasi</p>
         <p class="text-style-primary">
             Lokasi negara Australia berdasarkan garis lintang astronominya yaitu 10° LS-44° LS dan 113° BT-154° BT. Luas
             wilayah

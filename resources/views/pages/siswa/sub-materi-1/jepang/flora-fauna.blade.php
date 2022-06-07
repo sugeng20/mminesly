@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">5. Flora Fauna</p>
+        <p class="text-title font-bold mb-2">5. Flora Fauna</p>
+        <img src="{{ asset('img/materi/jepang/flora-fauna.png') }}" width="400" alt="" class="float-right ml-4">
         <p class="text-style-primary">
             Penggunaan lahan di Jepang didominasi oleh daerah perkotaan dengan banyak permukiman dan industri. Hal
             tersebut dapat

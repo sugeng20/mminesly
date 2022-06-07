@@ -5,7 +5,7 @@ Materi
 @endsection
 
 @section('content')
-<div class="pl-3 lg:pl-8 py-4 rounded-lg h-[65vh] bg-white shadow-lg w-full relative">
+<div class="py-4 rounded-lg h-[65vh] bg-white shadow-lg w-full relative">
 
     <div id="content"></div>
 

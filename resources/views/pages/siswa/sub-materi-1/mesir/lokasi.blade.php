@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">1. Lokasi</p>
+        <img src="{{ asset('img/materi/mesir/lokasi.png') }}" width="400" alt="" class="float-right ml-4">
+        <p class="text-title">1. Lokasi</p>
         <p class="text-style-primary">
             Mesir terletak pada 25°BT-36°BT dan 22°LU-32°LU. Secara geografis, Mesir terletak di Afrika Utara dengan
             posisi sebagian

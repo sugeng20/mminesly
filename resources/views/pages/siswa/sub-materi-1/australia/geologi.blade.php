@@ -5,8 +5,8 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_australia.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold mb-2">4. Kondisi Geologi</p>
+        <img src="{{ asset('img/materi/australia/geologi.png') }}" width="350" alt="" class="float-right ml-4">
+        <p class="text-title">4. Kondisi Geologi</p>
         <p class="text-style-primary">
             Australia memiliki sejumlah potensi sumber daya alam seperti minyak dan gas, bauksit, batu bara, bijih besi,
             intan, aluminium, tembaga, emas, mangan, lithium, bijih mangan, posfat, nikel, vanadium, zinc, perak, dan

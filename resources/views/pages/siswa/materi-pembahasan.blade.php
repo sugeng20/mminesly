@@ -15,7 +15,7 @@
                     <div class="flex justify-center">
                         <img src="{{ asset('img/materi/sub_materi_1.png') }}" class="w-60 mt-6 px-4" alt="">
                     </div>
-                    <p class="text-center px-2 font-bubbleWater mt-6">
+                    <p class="text-center px-2 font-bold mt-6">
                         Kondisi Geografis Benua Asia dan Benua Lainnya
                     </p>
                 </div>
@@ -31,7 +31,7 @@
                     <div class="flex justify-center">
                         <img src="{{ asset('img/materi/sub_materi_2.png') }}" class="w-60 mt-6 px-4" alt="">
                     </div>
-                    <p class="text-center px-2 font-bubbleWater mt-6">
+                    <p class="text-center px-2 font-bold mt-6">
                         Potensi Sumber Daya Alam di Benua Asia dan Benua Lainnya
                     </p>
                 </div>
@@ -47,7 +47,7 @@
                     <div class="flex justify-center">
                         <img src="{{ asset('img/materi/sub_materi_3.png') }}" class="w-60 mt-6 px-4" alt="">
                     </div>
-                    <p class="text-center px-2 font-bubbleWater mt-6">
+                    <p class="text-center px-2 font-bold mt-6">
                         Sumber Daya Manusia di Benua Asia dan Benua Lainnya
                     </p>
                 </div>
@@ -63,7 +63,7 @@
                     <div class="flex justify-center">
                         <img src="{{ asset('img/materi/sub_materi_4.png') }}" class="w-60 mt-6 px-4" alt="">
                     </div>
-                    <p class="text-center px-2 font-bubbleWater mt-6">
+                    <p class="text-center px-2 font-bold mt-6">
                         Distribusi Potensi Wilayah Benua Asia dan Benua Lainnya
                     </p>
                 </div>
@@ -79,7 +79,7 @@
                     <div class="flex justify-center">
                         <img src="{{ asset('img/materi/sub_materi_5.png') }}" class="w-60 mt-6 px-4" alt="">
                     </div>
-                    <p class="text-center px-2 font-bubbleWater mt-6">
+                    <p class="text-center px-2 font-bold mt-6">
                         Dampak interaksi antarruang Asia dan Benua Lainnya
                     </p>
                 </div>

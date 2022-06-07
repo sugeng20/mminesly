@@ -6,18 +6,22 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-4 mb-10 justify-center">
-        <img src="{{ asset('img/tujuan-pembelajaran.png') }}" width="400" height="300" alt="" class="float-right ml-4">
-        <p class="text-style-primary font-bold">Tujuan
+        <img src="{{ asset('img/tujuan-pembelajaran-khusus.png') }}" width="200" alt="" class="lg:float-right mr-10">
+        <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose font-bold">Tujuan
             Pembelajaran Umum:</p>
-        <p class="text-style-primary">
+        <p class="leading-loose text-sm text-justify text-slate-900 max-w-xl lg:text-[14px] lg:leading-loose">
             Setelah mempelajari multimedia interaktif berbasis website ini, siswa mampu memahami perubahan interaksi
             antar negara
             asia dan negara lain di dunia yang diakibatkan faktor alam, manusia dan pengaruhnya terhadap
             keberlangsungan kehidupan
             manusia dalam ekonomi, sosial, pendidikan, dan politik.
         </p>
-        <p class="text-style-primary mt-6 font-bold">Tujuan Pembelajaran Khusus:</p>
-        <ol class="list-decimal text-style-primary ml-4 max-w-md">
+        <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose mt-6 font-bold">Tujuan
+            Pembelajaran
+            Khusus:</p>
+        {{-- <img src="{{ asset('img/tujuan-pembelajaran.png') }}" alt="" class="float-right"> --}}
+        <ol
+            class="list-decimal leading-loose text-justify text-sm max-w-xl text-slate-900 lg:text-[14px] lg:leading-loose ml-4">
             <li>
                 Siswa mampu menjelaskan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas,
                 iklim, geologi, rupa

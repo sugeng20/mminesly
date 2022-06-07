@@ -23,5 +23,13 @@ body {
 }
 
 .text-style-primary {
-    @apply leading-loose text-sm text-slate-900 lg:text-lg lg:leading-loose;
+    @apply leading-loose text-sm text-slate-900 lg:text-[16px] lg:leading-loose;
+}
+
+.text-style-materi {
+    @apply leading-loose text-sm text-slate-900 lg:text-[16px] lg:leading-loose;
+}
+
+.text-title {
+    @apply leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose font-bold mb-2;
 }

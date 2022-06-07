@@ -1,7 +1,7 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
         <img src="{{ asset('img/materi/benua_eropa.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose">
             Setelah mempelajari tentang benua yang tersebar di seluruh dunia, maka selanjutnya mempelajari tentang
             kondisi alam
             negara-negara yang tersebar dari tiap masing- masing Benua yang ada di Dunia. Untuk itu yuk mari simak

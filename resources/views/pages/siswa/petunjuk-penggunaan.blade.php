@@ -21,7 +21,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">HOME</h2>
-                <p>Tombol yang berfungsi menuju ke halaman awal atau depan</p>
+                <p class="text-style-primary">Tombol yang berfungsi menuju ke halaman awal atau depan</p>
             </div>
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
@@ -30,7 +30,8 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">PROFIL</h2>
-                <p>Tombol yang berfungsi data diri dari pengguna multimedia interaktif berbasis website</p>
+                <p class="text-style-primary">Tombol yang berfungsi data diri dari pengguna multimedia interaktif
+                    berbasis website</p>
             </div>
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
@@ -39,7 +40,8 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">AUDIO ON</h2>
-                <p>Tombol yang berfungsi untuk menyalakan efek suara atau backsound secara seluruhan dalam
+                <p class="text-style-primary">Tombol yang berfungsi untuk menyalakan efek suara atau backsound secara
+                    seluruhan dalam
                     multimedia interaktif berbasis
                     website</p>
             </div>
@@ -50,7 +52,8 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">AUDIO OFF</h2>
-                <p>Tombol yang berfungsi untuk mematikan efek suara atau backsound secara seluruhan dalam multimedia
+                <p class="text-style-primary">Tombol yang berfungsi untuk mematikan efek suara atau backsound secara
+                    seluruhan dalam multimedia
                     interaktif berbasis
                     website</p>
             </div>
@@ -62,7 +65,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">NEXT</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk melanjutkan ke halaman berikutnya
                 </p>
             </div>
@@ -73,7 +76,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">BACK</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk kembali ke halaman sebelumnya
                 </p>
             </div>
@@ -85,7 +88,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">KOMPETENSI DASAR</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk menampilkan kompetensi dasar pada materi Interaksi Antar Negara Asia
                     dan
                     Negara lain di
@@ -99,7 +102,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">INDIKATOR</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk menampilkan Indikator pada materi Interaksi Antar Negara Asia dan
                     Negara
                     lain di Dunia
@@ -113,7 +116,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">TUJUAN PEMBELAJARAN</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk menampilkan tujuan pembelajaran pada materi Interaksi Antar Negara
                     Asia dan Negara lain di
                     Dunia yang akan dicapai
@@ -127,7 +130,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">PETUNJUK PENGGUNAAN</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk Informasi tentang petunjuk penggunaan dalam menggunakan multimedia
                     interaktif berbasis
                     website ini
@@ -141,7 +144,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">PETA KONSEP</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk menampilkan peta konsep pada materi Interaksi Antar Negara Asia dan
                     Negara lain di Dunia
                 </p>
@@ -154,7 +157,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">MATERI PEMBAHASAN</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk informasi pembelajaran dan pemahaman materi pembelajaran
                 </p>
             </div>
@@ -178,7 +181,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">EVALUASI</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk mengisi soal latihan berupa pilihan ganda untuk menguji pemahaman
                     materi
                 </p>
@@ -191,7 +194,7 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">REFERENSI</h2>
-                <p>
+                <p class="text-style-primary">
                     Tombol yang berfungsi untuk menampilkan sumber referensi yang digunakan untuk mengembangkan
                     materi Interaksi Antar
                     Negara Asia dan Negara lain di Dunia IPS Kelas IX Semester 1
@@ -205,8 +208,9 @@
             </div>
             <div class="w-4/5">
                 <h2 class="text-style-primary font-bold">PROFIL PENGEMBANG</h2>
-                <p>
-                    PROFIL PENGEMBANG
+                <p class="text-style-primary">
+                    Tombol yang berfungsi untuk menampilkan data diri dari pengembang multimedia interaktif berbasis
+                    website ini
                 </p>
             </div>
         </div>

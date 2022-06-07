@@ -547,6 +547,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mr-10 {
+  margin-right: 2.5rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -555,9 +558,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex {
   display: flex;
-}
-.list-item {
-  display: list-item;
 }
 .h-screen {
   height: 100vh;
@@ -631,8 +631,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[1000px\] {
   width: 1000px;
 }
-.max-w-md {
-  max-width: 28rem;
+.max-w-xl {
+  max-width: 36rem;
 }
 .origin-top-left {
   transform-origin: top left;
@@ -650,9 +650,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .cursor-pointer {
   cursor: pointer;
-}
-.list-inside {
-  list-style-position: inside;
 }
 .list-decimal {
   list-style-type: decimal;
@@ -823,6 +820,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-center {
   text-align: center;
 }
+.text-justify {
+  text-align: justify;
+}
 .font-bubbleWater {
   font-family: bubbleWater;
 }
@@ -955,8 +955,41 @@ body {
 @media (min-width: 1024px) {
 
   .text-style-primary {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 16px;
+    line-height: 2;
+  }
+}
+
+.text-style-materi {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 2;
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+
+  .text-style-materi {
+    font-size: 16px;
+    line-height: 2;
+  }
+}
+
+.text-title {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  line-height: 2;
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+
+  .text-title {
+    font-size: 18px;
     line-height: 2;
   }
 }
@@ -1013,6 +1046,10 @@ body {
 
   .lg\:relative {
     position: relative;
+  }
+
+  .lg\:float-right {
+    float: right;
   }
 
   .lg\:mr-0 {
@@ -1100,8 +1137,8 @@ body {
     background-position: top;
   }
 
-  .lg\:pl-8 {
-    padding-left: 2rem;
+  .lg\:pl-5 {
+    padding-left: 1.25rem;
   }
 
   .lg\:text-3xl {
@@ -1122,6 +1159,14 @@ body {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .lg\:text-\[14px\] {
+    font-size: 14px;
   }
 
   .lg\:text-2xl {

@@ -5,8 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/benua_eropa.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <div class="w-full flex justify-center">
+            <img src="{{ asset('img/materi/benua_eropa.png') }}" width="700" alt="">
+        </div>
+        <p class="text-style-primary text-justify">
             Benua Eropa dijuluki sebagai Benua Biru. Ada dua alasan kenapa disebut Benua Biru. Pertama, mayoritas
             penduduk Eropa
             memiliki bola mata berwarna biru. Kedua, sejak zaman dahulu banyak kerajaan terkenal berada di Benua Eropa
@@ -14,7 +16,7 @@
             dikenal adanya istilah darah biru (Bangsawan).
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary text-justify">
             Benua Eropa terletak pada 9° BB-60° BT dan 35° LU-80° LU. Luas Benua Eropa mencapai 10.355.000 km2. Secara
             geografis,
             Benua Eropa berbatasan dengan Samudera Arktik di utara, Laut Tengah di selatan, Samudera Atlantik di barat,
