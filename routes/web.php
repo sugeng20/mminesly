@@ -241,55 +241,135 @@ Route::get('/halaman-65', function() {
 
 // Sub materi 3
 Route::get('/halaman-66', function() {
-    return view('pages.siswa.sub-materi-3.dinamika-penduduk-asia');
+    return view('pages.siswa.sub-materi-3.asia.usia');
 });
 Route::get('/halaman-67', function() {
-    return view('pages.siswa.sub-materi-3.dinamika-penduduk-amerika');
+    return view('pages.siswa.sub-materi-3.asia.populasi');
 });
 Route::get('/halaman-68', function() {
-    return view('pages.siswa.sub-materi-3.dinamika-penduduk-eropa');
+    return view('pages.siswa.sub-materi-3.asia.agama');
 });
+
+
 Route::get('/halaman-69', function() {
-    return view('pages.siswa.sub-materi-3.dinamika-penduduk-afrika');
+    return view('pages.siswa.sub-materi-3.amerika.usia');
 });
 Route::get('/halaman-70', function() {
-    return view('pages.siswa.sub-materi-3.dinamika-penduduk-australia');
+    return view('pages.siswa.sub-materi-3.amerika.populasi');
+});
+Route::get('/halaman-71', function() {
+    return view('pages.siswa.sub-materi-3.amerika.budaya');
+});
+Route::get('/halaman-72', function() {
+    return view('pages.siswa.sub-materi-3.amerika.agama');
+});
+
+Route::get('/halaman-73', function() {
+    return view('pages.siswa.sub-materi-3.eropa.populasi');
+});
+Route::get('/halaman-74', function() {
+    return view('pages.siswa.sub-materi-3.eropa.jenis-1');
+});
+Route::get('/halaman-75', function() {
+    return view('pages.siswa.sub-materi-3.eropa.jenis-2');
+});
+Route::get('/halaman-76', function() {
+    return view('pages.siswa.sub-materi-3.eropa.jenis-3');
+});
+Route::get('/halaman-77', function() {
+    return view('pages.siswa.sub-materi-3.eropa.jenis-4');
+});
+Route::get('/halaman-78', function() {
+    return view('pages.siswa.sub-materi-3.eropa.jenis-5');
+});
+Route::get('/halaman-79', function() {
+    return view('pages.siswa.sub-materi-3.eropa.agama');
+});
+Route::get('/halaman-80', function() {
+    return view('pages.siswa.sub-materi-3.eropa.budaya');
+});
+
+Route::get('/halaman-81', function() {
+    return view('pages.siswa.sub-materi-3.afrika.populasi');
+});
+Route::get('/halaman-82', function() {
+    return view('pages.siswa.sub-materi-3.afrika.penduduk');
+});
+Route::get('/halaman-83', function() {
+    return view('pages.siswa.sub-materi-3.afrika.agama');
+});
+Route::get('/halaman-84', function() {
+    return view('pages.siswa.sub-materi-3.afrika.budaya');
+});
+
+Route::get('/halaman-85', function() {
+    return view('pages.siswa.sub-materi-3.australia.populasi');
+});
+Route::get('/halaman-86', function() {
+    return view('pages.siswa.sub-materi-3.australia.penduduk');
+});
+Route::get('/halaman-87', function() {
+    return view('pages.siswa.sub-materi-3.australia.agama');
 });
 
 // Sub Materi 4
-Route::get('/halaman-71', function() {
-    return view('pages.siswa.sub-materi-4.distribusi-potensi-wilayah-penduduk');
+Route::get('/halaman-88', function() {
+    return view('pages.siswa.sub-materi-4.wilayah.hal-1');
 });
-Route::get('/halaman-72', function() {
-    return view('pages.siswa.sub-materi-4.distribusi-potensi-sosial');
+Route::get('/halaman-89', function() {
+    return view('pages.siswa.sub-materi-4.wilayah.hal-2');
 });
-Route::get('/halaman-73', function() {
-    return view('pages.siswa.sub-materi-4.distribusi-potensi-budaya');
+Route::get('/halaman-90', function() {
+    return view('pages.siswa.sub-materi-4.wilayah.hal-3');
 });
 
+Route::get('/halaman-91', function() {
+    return view('pages.siswa.sub-materi-4.sosial.orientasi');
+});
+Route::get('/halaman-92', function() {
+    return view('pages.siswa.sub-materi-4.sosial.sosial');
+});
+
+Route::get('/halaman-93', function() {
+    return view('pages.siswa.sub-materi-4.budaya.orientasi');
+});
+Route::get('/halaman-94', function() {
+    return view('pages.siswa.sub-materi-4.budaya.asia');
+});
+Route::get('/halaman-95', function() {
+    return view('pages.siswa.sub-materi-4.budaya.amerika');
+});
+Route::get('/halaman-96', function() {
+    return view('pages.siswa.sub-materi-4.budaya.eropa');
+});
+Route::get('/halaman-97', function() {
+    return view('pages.siswa.sub-materi-4.budaya.afrika');
+});
+Route::get('/halaman-98', function() {
+    return view('pages.siswa.sub-materi-4.budaya.australia');
+});
+
+
 // Sub Materi 5
-Route::get('/halaman-74', function() {
+Route::get('/halaman-99', function() {
     return view('pages.siswa.sub-materi-5.konsep-dampak-interaksi-anatarruang-benua-asia-dan-benua-lainnya');
 });
-Route::get('/halaman-75', function() {
+Route::get('/halaman-100', function() {
     return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-ekonomi');
 });
-Route::get('/halaman-76', function() {
+Route::get('/halaman-101', function() {
     return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-sosial');
 });
-Route::get('/halaman-77', function() {
+Route::get('/halaman-102', function() {
     return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-budaya');
 });
-Route::get('/halaman-78', function() {
+Route::get('/halaman-103', function() {
     return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-politik');
 });
-Route::get('/halaman-79', function() {
+Route::get('/halaman-104', function() {
     return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-pendidikan');
 });
-Route::get('/halaman-80', function() {
-    return view('pages.siswa.sub-materi-5.distribusi-potensi-budaya');
-});
-Route::get('/halaman-81', function() {
-    return view('pages.siswa.sub-materi-5.distribusi-potensi-budaya');
+Route::get('/halaman-105', function() {
+    return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-pendidikan-2');
 });
 

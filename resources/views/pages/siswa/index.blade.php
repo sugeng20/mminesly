@@ -35,7 +35,7 @@ Materi
     $("#content").load(`/halaman-${halaman}`);
 
     $("#next").click(function () {
-        if(halaman == 54 || halaman == 65) {
+        if(halaman == 54 || halaman == 65 || halaman == 87 || halaman == 98) {
             halaman = 6;
             localStorage.setItem('halaman', halaman);
             $("#content").load(`/halaman-${halaman}`);

@@ -8,7 +8,7 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <img src="{{ asset('img/materi/materi5/pembukaan.png') }}" width="400" alt="" class="float-right ml-4">
         <p class="text-style-primary">
             Pengaruh interaksi keruangan biasa terjadi antarnegara dan antarbenua. Jarak yang jauh kini tidak lagi
             menjadi hambatan

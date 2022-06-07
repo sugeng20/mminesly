@@ -1,0 +1,39 @@
+<div
+    class="lg:w-96 w-72 h-16 absolute -top-7 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-center items-center bg-[#F2BA70] rounded-full shadow-lg">
+    <span class="lg:text-xl text-center text-xl text-[#622E2A] uppercase" style="font-family: 'BubbleWater'">Distribusi
+        Potensi
+        Wilayah<br /> dan Penduduk</span>
+</div>
+
+<div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
+    <div class="w-full px-8 mb-10">
+
+        <img src="{{ asset('img/materi/materi4/wilayah/industri.png') }}" width="500" alt="" class="float-right ml-4">
+        <p class="text-style-primary">
+            Dalam melaksanakan pembangunan, distribusi wilayah dan jumlah penduduk di tiap kawasan sangat penting.
+            Contohnya seperti
+            pada negara-negara yang berada pada wilayah Asia Timur yang terdiri dari Korea Selatan, China, Jepang, Korea
+            Utara,
+            Taiwan, Hongkong, dan Mongolia yang merupakan kawasan penghasil industri teknologi terbesar di Asia sehingga
+            manfaatnya
+            berdampak ke manca negara yang tersebar di seluruh dunia. Disamping itu, penduduknya memiliki tingkat
+            produktivitas yang
+            tinggi dikarenakan negara yang mengelola potensi sumber daya manusianya dapat dikelola dengan baik sehingga
+            mampu
+            memberikan pembangunan negara yang dapat bersaing dengan negara lainnya di dunia.
+        </p>
+    </div>
+
+
+</div>
+
+<div
+    class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
+
+    <button id="prev" class="hover:scale-125 duration-500 ease-in-out">
+        <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+    </button>
+    <button id="next" class="hover:scale-125 duration-500 ease-in-out">
+        <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
+    </button>
+</div>
