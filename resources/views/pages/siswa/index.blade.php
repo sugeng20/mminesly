@@ -35,9 +35,16 @@ Materi
     $("#content").load(`/halaman-${halaman}`);
 
     $("#next").click(function () {
-        halaman++;
-        localStorage.setItem('halaman', halaman);
-        $("#content").load(`/halaman-${halaman}`);
+        if(halaman == 54 || halaman == 65) {
+            halaman = 6;
+            localStorage.setItem('halaman', halaman);
+            $("#content").load(`/halaman-${halaman}`);
+        } else {
+            halaman++;
+            localStorage.setItem('halaman', halaman);
+            $("#content").load(`/halaman-${halaman}`);
+        }
+        
     });
 
     $("#prev").click(function () {

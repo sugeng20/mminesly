@@ -5,11 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">2. Bidang Pertambangan</p>
+        <img src="{{ asset('img/materi/materi2/amerika/pertambangan.png') }}" width="450" alt=""
+            class="float-right ml-4">
         <p class="text-style-primary">
-            <b>2. Bidang Pertambangan</b>
-            <br />
             Hasil-hasil pertambangan di Benua Amerika antara lain minyak bumi dan gas alam. Keduanya terdapat di Negara
             Meksiko dan
             Venezuela. Kemudian untuk batubara terdapat di daerah Pegunungan Appalachia, Chile. Selanjutnya untuk

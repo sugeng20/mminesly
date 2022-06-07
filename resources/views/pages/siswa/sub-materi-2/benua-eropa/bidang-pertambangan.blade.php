@@ -6,10 +6,9 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">2. Bidang Pertambangan</p>
+        <img src="{{ asset('img/materi/materi2/eropa/pertambangan.png') }}" width="450" alt="" class="float-right ml-4">
         <p class="text-style-primary">
-            <b>2. Bidang Pertambangan</b>
-            <br />
             Hasil pertambangan yang utama di Eropa adalah biji besi. Biji besi ini terdapat di Yunani, Perancis,
             Hungaria, dan
             Serbia Montenegro (Yugoslavia). Batubara terdapat di Cekoslovakia, Rusia, Inggris, Perancis, dan Jerman.

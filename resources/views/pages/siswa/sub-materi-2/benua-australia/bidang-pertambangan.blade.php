@@ -6,11 +6,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">2. Bidang Pertambangan</p>
+        <img src="{{ asset('img/materi/materi2/australia/pertambangan.png') }}" width="450" alt=""
+            class="float-right ml-4">
         <p class="text-style-primary">
-            <b>2. Bidang Pertambangan</b>
-            <br />
             Hasil tambang utama di Negara Australia adalah emas dan bijih besi yang usaha penambangannya dilakukan di
             Australia
             Barat. Penambangan emas terdapat di Kalgoorlie dan Coolgordie sedangkan penambangan bijih besi terdapat di

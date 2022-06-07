@@ -11,10 +11,9 @@
             persebarannya:
         </p>
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">1. Bidang Pertanian</p>
+        <img src="{{ asset('img/materi/materi2/afrika/pertanian.png') }}" width="450" alt="" class="float-right ml-4">
         <p class="text-style-primary">
-            <b>1. Bidang Pertanian</b>
-            <br />
             Pertanian di Benua Afrika terdapat pada lembah sungai besar, seperti lembah Sungai Oranye di Afrika Selatan,
             lembah
             Sungai Zambesi di Zambia dan Mozambik, lembah Sungai Niger di Nigeria, dan lembah Sungai kongo di Zaire.

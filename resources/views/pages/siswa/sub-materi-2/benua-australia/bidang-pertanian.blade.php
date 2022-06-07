@@ -15,10 +15,10 @@
             Australia juga didukung oleh beberapa faktor, di antaranya:
         </p>
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">1. Bidang Pertanian</p>
+        <img src="{{ asset('img/materi/materi2/australia/pertanian.png') }}" width="450" alt=""
+            class="float-right ml-4">
         <p class="text-style-primary">
-            <b>1. Bidang Pertanian</b>
-            <br />
             Australia adalah Negara industri maju berbasis pertanian. Beberapa komoditas yang sangat menjadi andalan
             ekspor
             Australia adalah Sapi, Domba, Apel, Jeruk, Gandum dan Strawberry. Selain itu Australia Selatan juga sedang

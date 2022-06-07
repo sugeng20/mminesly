@@ -5,11 +5,9 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">3. Bidang Perikanan</p>
+        <img src="{{ asset('img/materi/materi2/eropa/perikanan.png') }}" width="450" alt="" class="float-right ml-4">
         <p class="text-style-primary">
-            <b>3. Bidang Perikanan</b>
-            <br />
             Benua Eropa terletak di sekitar samudra Atlantik, Laut utara, dan Laut tengah. Lokasi yang demikian sangat
             memungkinkan
             usaha di bidang perikanan. Daerah potensial perikanannya terdapat di Norwegia, Islandia, Rusia, Inggris dan

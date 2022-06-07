@@ -13,10 +13,9 @@
             sebarannya.
         </p>
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <img src="{{ asset('img/materi/materi2/eropa/pertanian.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">1. Bidang Pertanian</p>
         <p class="text-style-primary">
-            <b>1. Bidang Pertanian</b>
-            <br />
             Pertanian di Eropa maju karena lokasinya di daerah lembah sungai-sungai besar, misalnya lembah Sungai Rhone
             dan Seine di
             Perancis dan lembah Sungai Rheine di Jerman. Hasil pertaniannya adalah jagung, gandum, barley, terigu,

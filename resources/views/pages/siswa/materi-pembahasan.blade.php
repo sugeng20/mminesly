@@ -23,7 +23,7 @@
         </div>
 
         <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex">
-            <a onclick="navigation(7)" class="hover:scale-105 transition duration-500 cursor-pointer">
+            <a onclick="navigation(55)" class="hover:scale-105 transition duration-500 cursor-pointer">
                 <div class="bg-[#E9F5F9] shadow-lg h-80 overflow-hidden rounded-3xl">
                     <div class="h-14 bg-[#31647A] items-center justify-center flex">
                         <span class="font-bold text-2xl text-white">SUB MATERI 2</span>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex">
-            <a onclick="navigation(7)" class="hover:scale-105 transition duration-500 cursor-pointer">
+            <a onclick="navigation(66)" class="hover:scale-105 transition duration-500 cursor-pointer">
                 <div class="bg-[#E9F5F9] shadow-lg h-80 overflow-hidden rounded-3xl">
                     <div class="h-14 bg-[#31647A] items-center justify-center flex">
                         <span class="font-bold text-2xl text-white">SUB MATERI 3</span>

@@ -13,11 +13,9 @@
             dingin.
             Potensi alam dibidang Pertanian dan Pertambangan telah diolah dan dilakukan menggunakan teknologi modern.
         </p>
-
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-title">1. Bidang Pertanian</p>
+        <img src="{{ asset('img/materi/materi2/amerika/pertanian.png') }}" width="450" alt="" class="float-right ml-4">
         <p class="text-style-primary">
-            <b>1. Bidang Pertanian</b>
-            <br />
             Hasil pertanian berupa padi terdapat di daerah Lousiana, California, Georgia, Carolina, dan Texas. Kemudian
             kapas
             terdapat di daerah Lousiana, Oklahoma, Texas, Arkansas, Nevada, Georgia, dan Alabama. Kopi dihasilkan dari

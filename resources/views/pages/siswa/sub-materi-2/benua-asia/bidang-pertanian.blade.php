@@ -13,10 +13,12 @@
             pertambangan.
         </p>
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
-            <b>1. Bidang Pertanian</b>
-            <br />
+
+        <p class="text-title mt-2">
+            1. Bidang Pertanian
+        </p>
+        <img src="{{ asset('img/materi/materi2/asia/pertanian.png') }}" width="450" alt="" class="float-right ml-4">
+        <p class="text-style-primary max-w-lg">
             Daerah pertanian potensial di Benua Asia terdapat di daerah sekitar lembah sungai besar. Dapat dilihat pada
             kawasan di
             Asia Tenggara banyak negara-negara yang menghasilkan padi, terutama Myanmar, Thailand, Vietnam, dan
