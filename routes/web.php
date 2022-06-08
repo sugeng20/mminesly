@@ -23,10 +23,6 @@ Route::post('/authenticate', [AuthController::class, 'authenticate']);
 Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::get('/materi', [SiswaController::class, 'index']);
-Route::get('/forum-diskusi-pesan', [SiswaController::class, 'ForumDiskusiPesan']);
-Route::get('/forum-diskusi', [SiswaController::class, 'ForumDiskusi']);
-Route::post('/post-diskusi', [SiswaController::class, 'postDiskusi']);
-
 
 Route::get('/halaman-1', function() {
     return view('pages.siswa.selamat-datang');
@@ -379,3 +375,7 @@ Route::get('/halaman-106', function() {
     return view('pages.siswa.sub-materi-5.dampak-perubahan-dan-interaksi-di-bidang-pendidikan-2');
 });
 
+// Forum Diskusi
+Route::get('/halaman-107', [SiswaController::class, 'ForumDiskusi']);
+Route::get('/forum-diskusi-pesan', [SiswaController::class, 'ForumDiskusiPesan']);
+Route::post('/post-diskusi', [SiswaController::class, 'postDiskusi']);

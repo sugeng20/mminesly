@@ -90,9 +90,9 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_forum.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="{{ url('forum-diskusi') }}" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(107)" class="font-bold text-lg text-white ml-3">
                             Forum Diskusi
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">

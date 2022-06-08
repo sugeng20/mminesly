@@ -13,6 +13,7 @@ Materi
 @endsection
 
 @push('script')
+<script src="{{ url('ckeditor/ckeditor.js') }}"></script>
 <script>
     if(localStorage.getItem('halaman')) {
         var halaman = localStorage.getItem('halaman');

@@ -43,19 +43,16 @@ Selamat Datang
     <div
         class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
 
-        <button id="prev" class="hover:scale-125 duration-500 ease-in-out">
+        <a href="{{ url('materi') }}" class="hover:scale-125 duration-500 ease-in-out">
             <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
-        </button>
-        <button id="next" class="hover:scale-125 duration-500 ease-in-out">
+        </a>
+        <a href="{{ url('materi') }}" class="hover:scale-125 duration-500 ease-in-out">
             <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
-        </button>
+        </a>
     </div>
 </div>
 @endsection
 
 @push('script')
 <script src="{{ url('ckeditor/ckeditor.js') }}"></script>
-<script>
-    localStorage.setItem('halaman', 1);
-</script>
 @endpush
