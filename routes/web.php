@@ -22,7 +22,9 @@ Route::get('/lupa-password', [AuthController::class, 'lupaPassword']);
 Route::post('/authenticate', [AuthController::class, 'authenticate']);
 
 Route::get('/materi', [SiswaController::class, 'index']);
+Route::get('/forum-diskusi-pesan', [SiswaController::class, 'ForumDiskusiPesan']);
 Route::get('/forum-diskusi', [SiswaController::class, 'ForumDiskusi']);
+Route::post('/post-diskusi', [SiswaController::class, 'postDiskusi']);
 
 Route::get('/selamat-datang', function() {
     return view('pages.siswa.selamat-datang');

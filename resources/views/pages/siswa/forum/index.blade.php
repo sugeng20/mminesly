@@ -12,32 +12,51 @@ Selamat Datang
             Diskusi</span>
     </div>
 
+
     <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
-        <div class="w-full px-8 mb-10">
-            <div class="w-full mt-2 flex px-4 mb-4">
-                <label for="subject" class="mr-4">Subject</label>
-                <input type="text" name="subject" id="subject" placeholder="Masukan Subject"
-                    class="bg-slate-100 text-slate-900 w-full rounded-md p-3" required>
-            </div>
 
-            <div class="w-full px-4 flex">
-                <label for="subject" class="mr-6">Pesan</label>
-                <div class="w-full">
+        <div class="px-2 lg:px-16 mb-10 w-full">
 
-                    <textarea name="pesan" id="pesan" class="ckeditor" style="width: 100%" required></textarea>
+            @forelse ($messages as $message)
+            @if(Auth::user()->id == $message->id_user)
+            <div class="flex flex-wrap justify-end mb-3">
+                <div class="w-full justify-end flex mr-3 mb-1">
+                    <p class="text-xs">Subject : {{ $message->subject }}</p>
+                </div>
+                <div class="py-2 px-4 text-white max-w-md rounded-full leading-relaxed bg-green-700">
+                    {!! $message->pesan !!}
+                </div>
+                <div class="w-full flex mr-3 mt-1 justify-end">
+                    <p class="text-xs">{{ $message->user->nama_depan }}</p>
                 </div>
             </div>
+            @else
+            <div class="flex flex-wrap">
+                <div class="w-full flex ml-3 mb-1">
+                    <p class="text-xs">Subject : {{ $message->subject }}</p>
+                </div>
+                <div class="py-2 px-4 text-white max-w-md rounded-full leading-relaxed bg-slate-700">
+                    {!! $message->pesan !!}
+                </div>
+                <div class="w-full flex ml-3 mt-1 max-w-md">
+                    <p class="text-xs mr-3">{{ $message->user->nama_depan }}</p>
+                    <a href="{{ url('forum-diskusi-pesan') }}?subject={{ $message->subject }}"
+                        class="text-xs text-green-800">Tanggapi</a>
 
-            <div class="w-full flex justify-end px-4 mt-1">
-                <button type="submit"
-                    class="py-1 px-10 bg-[#4BB15E] text-white  text-lg rounded-xl hover:opacity-80 hover:shadow-lg hover:scale-105 transition duration-500">
-                    kirim
-                </button>
+                </div>
             </div>
+            @endif
+            @empty
+
+            <p class="mt-10 text-center text-2xl font-bold">Belum Ada Pesan</p>
+            @endforelse
+
         </div>
 
-
     </div>
+
+
+
     <div
         class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
 
@@ -48,6 +67,11 @@ Selamat Datang
             <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
         </button>
     </div>
+
+    <a href="{{ url('forum-diskusi-pesan') }}"
+        class="px-6 py-2 absolute bottom-6 right-10 bg-cover bg-center flex justify-between items-center bg-green-600 text-white rounded-full shadow-xl hover:scale-110 duration-500 ease-in-out">
+        Kirim Pesan
+    </a>
 </div>
 @endsection
 
