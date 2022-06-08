@@ -11,48 +11,8 @@ class SiswaController extends Controller
         return view('pages.siswa.index');
     }
 
-    public function kompetensiDasar()
+    public function ForumDiskusi()
     {
-        return view('pages.siswa.kompetensi-dasar');
-    }
-
-    public function indikator()
-    {
-        return view('pages.siswa.indikator');
-    }
-
-    public function tujuanPembelajaran()
-    {
-        return view('pages.siswa.tujuan-pembelajaran');
-    }
-
-    public function petunjukPenggunaan()
-    {
-        return view('pages.siswa.petunjuk-penggunaan');
-    }
-
-    public function petaKonsep()
-    {
-        return view('pages.siswa.peta-konsep');
-    }
-
-    public function materiPembahasan()
-    {
-        
-    }
-
-    public function subMateri1()
-    {
-        return view('pages.siswa.sub-materi-1');
-    }
-
-    public function materi1()
-    {
-        return view('pages.siswa.sub-materi-1.materi-1');
-    }
-
-    public function materi2()
-    {
-        return view('pages.siswa.sub-materi-1.materi-2');
+        return view('pages.siswa.forum.index');
     }
 }
