@@ -15,8 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [AuthController::class, 'login']);
+Route::get('/', [AuthController::class, 'login'])->name('login');
 Route::get('/register', [AuthController::class, 'register']);
+Route::post('/registration', [AuthController::class, 'registration']);
 Route::get('/lupa-password', [AuthController::class, 'lupaPassword']);
 Route::post('/authenticate', [AuthController::class, 'authenticate']);
 
