@@ -16,13 +16,15 @@ Selamat Datang
         <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
             @csrf
             <div class="w-full px-8 mb-10">
-                <div class="w-full mt-2 flex px-4 mb-4">
+                <div class="w-full mt-2 flex px-4 mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0"
+                    data-aos-duration="1000">
                     <label for="subject" class="mr-4">Subject</label>
                     <input type="text" name="subject" id="subject" placeholder="Masukan Subject"
                         class="bg-slate-100 text-slate-900 w-full rounded-md p-3" value="{{ $subject }}" required>
                 </div>
 
-                <div class="w-full px-4 flex">
+                <div class="w-full px-4 flex" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500"
+                    data-aos-duration="1000">
                     <label for="subject" class="mr-6">Pesan</label>
                     <div class="w-full">
 

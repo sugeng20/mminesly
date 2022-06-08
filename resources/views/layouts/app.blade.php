@@ -16,6 +16,7 @@
             src: url('fonts/PoetsenOne-Regular.ttf');
         }
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
@@ -178,7 +179,13 @@
 
     <script src="{{ asset('/js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('/js/script.js') }}"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     @stack('script')
+
     <script>
         // var bel = new Audio('https://www.meramukoding.com/wp-content/uploads/2020/05/doorbell.mp3');
         // function bunyi() {
