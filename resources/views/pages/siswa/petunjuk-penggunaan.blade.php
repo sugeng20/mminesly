@@ -7,7 +7,7 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full flex flex-wrap mb-10">
         <div class="w-full px-6 mb-6">
-            <p class="text-style-primary text-center">Sebelum menggunakan multimedia interaktif berbasis
+            <p class="text-style lg:text-xl text-center">Sebelum menggunakan multimedia interaktif berbasis
                 website
                 ini, Ayo kita lihat
                 dulu fungsi dari

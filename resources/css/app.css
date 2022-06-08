@@ -22,11 +22,11 @@ body {
     @apply -rotate-45;
 }
 
-.text-style-primary {
-    @apply leading-loose text-sm text-slate-900 lg:text-[16px] lg:leading-loose;
+.text-style {
+    @apply leading-loose text-sm text-slate-900 lg:leading-loose;
 }
 
-.text-style-materi {
+.text-style-primary {
     @apply leading-loose text-sm text-slate-900 lg:text-[16px] lg:leading-loose;
 }
 

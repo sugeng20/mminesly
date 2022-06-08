@@ -8,7 +8,7 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi4/wilayah/penduduk.png') }}" width="450" alt="" class="float-right ml-4">
+        <img src="{{ asset('img/materi/materi4/wilayah/wilayah.png') }}" width="350" alt="" class="float-right ml-4">
         <p class="text-style-primary">
             Wilayah yang luas dapat menjadi potensi dan penghambat bagi suatu negara. Wilayah yang luas merupakan
             potensi bagi suatu

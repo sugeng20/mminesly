@@ -14,7 +14,7 @@
 
 
             <li>
-                <b>Benua Afrika :</b> <br />
+                <b>4. Benua Afrika :</b> <br />
                 Kebudayaan di Afrika pada umumnya memiliki ragam jenis bentuk kebudayaan yang dihasilkan dari setiap
                 wilayah
                 negara-negara yang ada dalam Benua Afrika. Selain memiliki satwa yang beragam jenis ternyata Afrika juga
