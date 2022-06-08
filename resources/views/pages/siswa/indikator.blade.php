@@ -31,6 +31,6 @@
         </ol>
 
     </div>
-
-
 </div>
+
+@include('includes.navigasi')

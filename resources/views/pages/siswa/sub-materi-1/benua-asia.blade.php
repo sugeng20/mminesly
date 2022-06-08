@@ -44,3 +44,5 @@
         <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
     </button>
 </div>
+
+@include('includes.navigasi')

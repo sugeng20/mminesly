@@ -23,7 +23,7 @@ Selamat Datang
                 <div class="w-full justify-end flex mr-3 mb-1">
                     <p class="text-xs">Subject : {{ $message->subject }}</p>
                 </div>
-                <div class="py-2 px-4 text-white max-w-md rounded-full leading-relaxed bg-green-700">
+                <div class="py-2 px-4 text-white max-w-md rounded-xl leading-relaxed bg-green-700">
                     {!! $message->pesan !!}
                 </div>
                 <div class="w-full flex mr-3 mt-1 justify-end">
@@ -35,7 +35,7 @@ Selamat Datang
                 <div class="w-full flex ml-3 mb-1">
                     <p class="text-xs">Subject : {{ $message->subject }}</p>
                 </div>
-                <div class="py-2 px-4 text-white max-w-md rounded-full leading-relaxed bg-slate-700">
+                <div class="py-2 px-4 text-white max-w-md rounded-xl leading-relaxed bg-slate-700">
                     {!! $message->pesan !!}
                 </div>
                 <div class="w-full flex ml-3 mt-1 max-w-md">

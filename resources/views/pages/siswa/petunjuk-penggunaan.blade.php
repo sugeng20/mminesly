@@ -217,3 +217,5 @@
     </div>
 
 </div>
+
+@include('includes.navigasi')

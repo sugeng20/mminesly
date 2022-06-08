@@ -60,4 +60,15 @@ class AuthController extends Controller
             'nis_nik' => 'NiS/NIK dan Password tidak cocok!',
         ]);
     }
+
+    public function logout(Request $request)
+    {
+        Auth::logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/');
+    }
 }

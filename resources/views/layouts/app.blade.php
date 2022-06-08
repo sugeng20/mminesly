@@ -25,7 +25,7 @@
         <aside
             class="lg:w-96 w-80 h-screen bg-primary -translate-x-96 absolute lg:relative lg:translate-x-0 overflow-hidden transition duration-500 ease-in-out z-10">
             <div class="flex justify-end mr-8 mt-3 flex-wrap lg:justify-center lg:mr-0">
-                <a href="{{ url('/selamat-datang') }}">
+                <a onclick="navigation(1)" class="cursor-pointer">
                     <div
                         class="lg:w-[270px] lg:h-[50px] w-[200px] h-[50px] bg-white rounded-full flex items-center justify-center shadow-lg">
                         <img src="{{ asset('img/logo-smp.png') }}" class="ml-3 lg:ml-0" width="25" alt="">
@@ -158,7 +158,7 @@
                         </a>
                     </li>
                     <li class="group">
-                        <a href="#">
+                        <a href="{{ url('logout') }}" onclick="return confirm('Apakah anda yakin keluar?')">
                             <img src="{{ asset('img/ic_exit.png') }}" class="group-hover:scale-125 duration-500"
                                 width="50" alt="">
                         </a>

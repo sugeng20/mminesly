@@ -31,3 +31,5 @@
 
 
 </div>
+
+@include('includes.navigasi')

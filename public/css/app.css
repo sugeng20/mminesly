@@ -664,6 +664,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[68vh\] {
   height: 68vh;
 }
+.h-\[57vh\] {
+  height: 57vh;
+}
+.h-\[63vh\] {
+  height: 63vh;
+}
 .w-80 {
   width: 20rem;
 }
