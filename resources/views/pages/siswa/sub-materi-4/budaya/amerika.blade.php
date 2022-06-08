@@ -12,7 +12,7 @@
         <ul class="text-style-primary ml-4 list-disc">
 
             <li>
-                <b>Benua Amerika :</b> <br />
+                <b>2. Benua Amerika :</b> <br />
                 Kebudayaan Amerika dianggap sebagai kebudayaan yang paling individualistik di dunia. Konsep "American
                 Dream", atau
                 anggapan bahwa kehidupan sosial di Amerika lebih baik, berkembang di kalangan banyak orang dan berperan

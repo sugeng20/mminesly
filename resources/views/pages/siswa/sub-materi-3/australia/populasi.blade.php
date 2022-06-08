@@ -7,7 +7,7 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/australia/populasi.png') }}" width="350" alt="" class="float-right ml-4">
+        <img src="{{ asset('img/materi/materi3/australia/penduduk.png') }}" width="190" alt="" class="float-right ml-4">
         <p class="text-style-primary">
             Australia merupakan negara sekaligus benua dengan kualitas penduduk yang sangat tinggi. Salah satu indikator
             kualitas

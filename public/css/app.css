@@ -944,6 +944,21 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.text-style {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 2;
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+
+  .text-style {
+    line-height: 2;
+  }
+}
+
 .text-style-primary {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -955,22 +970,6 @@ body {
 @media (min-width: 1024px) {
 
   .text-style-primary {
-    font-size: 16px;
-    line-height: 2;
-  }
-}
-
-.text-style-materi {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  line-height: 2;
-  --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity));
-}
-
-@media (min-width: 1024px) {
-
-  .text-style-materi {
     font-size: 16px;
     line-height: 2;
   }

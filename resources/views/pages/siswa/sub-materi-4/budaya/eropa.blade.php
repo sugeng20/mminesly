@@ -12,7 +12,7 @@
         <ul class="text-style-primary ml-4 list-disc">
 
             <li>
-                <b>Benua Eropa :</b> <br />
+                <b>3. Benua Eropa :</b> <br />
                 Kebudayan eropa berakar dalam seni, arsitektur, musik, sastra, filsafat yang berasal dari masyarakat
                 eropa itu sendiri.
                 Namun pada kebudayaan eropa yang paling menonjol diantara lainnya yaitu karya seni maupun gaya

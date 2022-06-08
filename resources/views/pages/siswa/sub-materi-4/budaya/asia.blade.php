@@ -11,7 +11,7 @@
 
         <ul class="text-style-primary ml-4 list-disc">
             <li>
-                <b>Benua Asia :</b> <br />
+                <b>1. Benua Asia :</b> <br />
                 Benua Asia memiliki ciri khas yang dikenal oleh seluruh dunia dalam bentuk budaya atau kebiasaan yang
                 dilakukan. Salah
                 satu contohnya orang Asia dikenal sangat ramah dan senang tersenyum dan menyapa, apalagi kalau dengan

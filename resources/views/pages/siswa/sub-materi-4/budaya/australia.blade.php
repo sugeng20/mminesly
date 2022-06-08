@@ -12,7 +12,7 @@
         <ul class="text-style-primary ml-4 list-disc">
 
             <li>
-                <b>Benua Australia :</b> <br />
+                <b>5. Benua Australia :</b> <br />
                 Kebudayaan yang dihasilkan pada Benua Australia
                 umumnya berasal dari suku aborigin yang merupakan suku asli penduduk Benua Australia. Budaya yang
                 dihasilkan dari suku
