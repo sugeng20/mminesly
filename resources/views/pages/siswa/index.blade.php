@@ -25,6 +25,7 @@ Materi
     $("#content").load(`/halaman-${halaman}`);
 
     function next() {
+        bunyi();
         if(halaman == 55 || halaman == 66 || halaman == 88 || halaman == 99) {
             halaman = 7;
             localStorage.setItem('halaman', halaman);
@@ -37,6 +38,7 @@ Materi
     }
 
     function prev() {
+        bunyi();
         halaman--;
         localStorage.setItem('halaman', halaman);
         $("#content").load(`/halaman-${halaman}`);
@@ -44,6 +46,7 @@ Materi
     }
 
     function navigation(hal) {
+        bunyi();
         halaman = hal;
         localStorage.setItem('halaman', halaman);
         $("#content").load(`/halaman-${halaman}`);

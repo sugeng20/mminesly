@@ -32,7 +32,7 @@
                 @endif
                 @error('nis_nik')
                 <div class="w-full py-3 px-4 text-white rounded-lg bg-red-800 mb-3">
-                    Username dan Password anda salah !
+                    Username dan Password Anda salah !
                 </div>
                 @enderror
                 <form action="{{ url('/authenticate') }}" method="POST">

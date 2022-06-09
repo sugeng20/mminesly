@@ -141,7 +141,7 @@
                 </div>
                 <ul class="ml-auto mr-8 flex">
                     <li class="mr-2 lg:mr-6 group">
-                        <a href="#" onclick="bunyi()">
+                        <a href="#">
                             <img src="{{ asset('img/ic_home.png') }}" class="group-hover:scale-125 duration-500"
                                 width="50" alt="">
                         </a>
@@ -152,9 +152,9 @@
                                 width="50" alt="">
                         </a>
                     </li>
-                    <li class="mr-2 lg:mr-6 group">
-                        <a href="#">
-                            <img src="{{ asset('img/ic_sound.png') }}" class="group-hover:scale-125 duration-500"
+                    <li class="mr-2 lg:mr-6 group" id="sound">
+                        <a onclick="startBacksound()" class="cursor-pointer">
+                            <img src="{{ asset('img/ic_sound_off.png') }}" class="group-hover:scale-125 duration-500"
                                 width="50" alt="">
                         </a>
                     </li>
@@ -186,16 +186,50 @@
             offset: 0,
         });
 
+        var bel = new Audio('{{ asset("audio/klik.mp3") }}');
+        var bel2 = new Audio('{{ asset("audio/hover.wav") }}');
+        
+        var backsound = new Audio('{{ asset("audio/backsound.mp3") }}');
+
+        function startBacksound() {
+            backsound.loop = 'true';
+            backsound.play();
+            $('#sound').empty();
+            $('#sound').append(`
+                <a onclick="stopBacksound()" class="cursor-pointer">
+                    <img src="{{ asset('img/ic_sound.png') }}" class="group-hover:scale-125 duration-500" width="50" alt="">
+                </a>
+            `)
+        }
+
+        function stopBacksound() {
+            backsound.pause();
+            $('#sound').empty();
+            $('#sound').append(`
+            <a onclick="startBacksound()" class="cursor-pointer">
+                <img src="{{ asset('img/ic_sound_off.png') }}" class="group-hover:scale-125 duration-500" width="50" alt="">
+            </a>
+            `)
+        }
+    
+
+        function bunyi() {
+            bel.currentTime = 0;
+            bel2.play();
+            // bel.play();
+        }
+
+        function hover() {
+            bel2.currentTime = 0;
+            bel2.play();
+        }
+
     </script>
 
     @stack('script')
 
     <script>
-        // var bel = new Audio('https://www.meramukoding.com/wp-content/uploads/2020/05/doorbell.mp3');
-        // function bunyi() {
-        //     bel.currentTime = 0;
-        //     bel.play();
-        // }
+
     </script>
 </body>
 
