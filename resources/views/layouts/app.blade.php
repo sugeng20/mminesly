@@ -141,10 +141,10 @@
                 </div>
                 <ul class="ml-auto mr-8 flex">
                     <li class="mr-2 lg:mr-6 group">
-                        <a href="#">
+                        <button onclick="navigation(1)">
                             <img src="{{ asset('img/ic_home.png') }}" class="group-hover:scale-125 duration-500"
                                 width="50" alt="">
-                        </a>
+                        </button>
                     </li>
                     <li class="mr-2 lg:mr-6 group">
                         <a href="#">
@@ -191,7 +191,19 @@
         
         var backsound = new Audio('{{ asset("audio/backsound.mp3") }}');
 
+        function bunyi() {
+            bel.currentTime = 0;
+            bel2.play();
+            // bel.play();
+        }
+
+        function hover() {
+            bel2.currentTime = 0;
+            bel2.play();
+        }
+
         function startBacksound() {
+            bunyi();
             backsound.loop = 'true';
             backsound.play();
             $('#sound').empty();
@@ -203,6 +215,7 @@
         }
 
         function stopBacksound() {
+            bunyi();
             backsound.pause();
             $('#sound').empty();
             $('#sound').append(`
@@ -213,16 +226,7 @@
         }
     
 
-        function bunyi() {
-            bel.currentTime = 0;
-            bel2.play();
-            // bel.play();
-        }
-
-        function hover() {
-            bel2.currentTime = 0;
-            bel2.play();
-        }
+        
 
     </script>
 
