@@ -5,7 +5,7 @@
 </div>
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
-    <div class="w-full mb-10 justify-center  flex">
+    <div class="w-full mb-10 justify-center  flex" data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="0">
         <img src="{{ asset('img/peta_konsep.png') }}" width="300" alt="">
     </div>
 

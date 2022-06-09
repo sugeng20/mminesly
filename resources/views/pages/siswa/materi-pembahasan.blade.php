@@ -6,7 +6,8 @@
 
 <div class="overflow-y-scroll mt-8 px-4 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full flex justify-center flex-wrap mt-4 mb-10">
-        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex">
+        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex" data-aos="fade-up" data-aos-delay="0"
+            data-aos-anchor="#content">
             <a onclick="navigation(8)" class="hover:scale-105 transition duration-500 cursor-pointer">
                 <div class="bg-[#E9F5F9] shadow-lg h-80 overflow-hidden rounded-3xl">
                     <div class="h-14 bg-[#31647A] items-center justify-center flex">
@@ -22,7 +23,8 @@
             </a>
         </div>
 
-        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex">
+        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex" data-aos="fade-up" data-aos-delay="500"
+            data-aos-anchor="#content">
             <a onclick="navigation(56)" class="hover:scale-105 transition duration-500 cursor-pointer">
                 <div class="bg-[#E9F5F9] shadow-lg h-80 overflow-hidden rounded-3xl">
                     <div class="h-14 bg-[#31647A] items-center justify-center flex">
@@ -38,7 +40,8 @@
             </a>
         </div>
 
-        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex">
+        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex" data-aos="fade-up" data-aos-delay="1000"
+            data-aos-anchor="#content">
             <a onclick="navigation(67)" class="hover:scale-105 transition duration-500 cursor-pointer">
                 <div class="bg-[#E9F5F9] shadow-lg h-80 overflow-hidden rounded-3xl">
                     <div class="h-14 bg-[#31647A] items-center justify-center flex">
@@ -54,7 +57,8 @@
             </a>
         </div>
 
-        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex">
+        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex" data-aos="fade-up" data-aos-anchor="#content"
+            data-aos-delay="1500">
             <a onclick="navigation(89)" class="hover:scale-105 transition duration-500 cursor-pointer">
                 <div class="bg-[#E9F5F9] shadow-lg h-80 overflow-hidden rounded-3xl">
                     <div class="h-14 bg-[#31647A] items-center justify-center flex">
@@ -70,7 +74,8 @@
             </a>
         </div>
 
-        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex">
+        <div class="w-full lg:w-1/3 px-4 mb-8 justify-center flex" data-aos="fade-up" data-aos-delay="2000"
+            data-aos-anchor="#content">
             <a onclick="navigation(100)" class="hover:scale-105 transition duration-500 cursor-pointer">
                 <div class="bg-[#E9F5F9] shadow-lg h-80 overflow-hidden rounded-3xl">
                     <div class="h-14 bg-[#31647A] items-center justify-center flex">

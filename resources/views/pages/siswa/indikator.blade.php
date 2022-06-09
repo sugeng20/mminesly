@@ -5,8 +5,9 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/indikator.png') }}" width="400" height="300" alt="" class="float-right ml-4">
-        <ol class="list-decimal text-style-primary">
+        <img src="{{ asset('img/indikator.png') }}" width="400" height="300" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="0">
+        <ol class="list-decimal text-style-primary" data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="500">
             <li>
                 Menjelaskan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas, iklim, geologi,
                 rupa bumi, tata

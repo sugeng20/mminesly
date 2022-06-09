@@ -6,7 +6,7 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full flex flex-wrap mb-10">
-        <div class="w-full px-6 mb-6">
+        <div class="w-full px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="0">
             <p class="text-style lg:text-xl text-center">Sebelum menggunakan multimedia interaktif berbasis
                 website
                 ini, Ayo kita lihat
@@ -15,7 +15,8 @@
                 navigasi berikut :
             </p>
         </div>
-        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
+        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
+            data-aos-delay="500">
             <div class="w-1/5">
                 <img src="{{ asset('img/petunjuk/home.png') }}" alt="" width="60">
             </div>
@@ -24,7 +25,8 @@
                 <p class="text-style-primary">Tombol yang berfungsi menuju ke halaman awal atau depan</p>
             </div>
         </div>
-        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
+        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
+            data-aos-delay="1000">
             <div class="w-1/5">
                 <img src="{{ asset('img/petunjuk/profil.png') }}" alt="" width="60">
             </div>
@@ -34,7 +36,8 @@
                     berbasis website</p>
             </div>
         </div>
-        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
+        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
+            data-aos-delay="1500">
             <div class="w-1/5">
                 <img src="{{ asset('img/petunjuk/audio_on.png') }}" alt="" width="60">
             </div>
@@ -46,7 +49,8 @@
                     website</p>
             </div>
         </div>
-        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
+        <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
+            data-aos-delay="2000">
             <div class="w-1/5">
                 <img src="{{ asset('img/petunjuk/audio_off.png') }}" alt="" width="60">
             </div>

@@ -6,22 +6,26 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-4 mb-10 justify-center">
-        <img src="{{ asset('img/tujuan-pembelajaran-khusus.png') }}" width="200" alt="" class="lg:float-right mr-10">
-        <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose font-bold">Tujuan
+        <img src="{{ asset('img/tujuan-pembelajaran-khusus.png') }}" width="200" alt="" class="lg:float-right mr-10"
+            data-aos="fade-up" data-aos-delay="0" data-aos-anchor="#content">
+        <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose font-bold" data-aos="fade-up"
+            data-aos-delay="500" data-aos-anchor="#content">Tujuan
             Pembelajaran Umum:</p>
-        <p class="leading-loose text-sm text-justify text-slate-900 max-w-xl lg:text-[14px] lg:leading-loose">
+        <p class="leading-loose text-sm text-justify text-slate-900 max-w-xl lg:text-[14px] lg:leading-loose"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Setelah mempelajari multimedia interaktif berbasis website ini, siswa mampu memahami perubahan interaksi
             antar negara
             asia dan negara lain di dunia yang diakibatkan faktor alam, manusia dan pengaruhnya terhadap
             keberlangsungan kehidupan
             manusia dalam ekonomi, sosial, pendidikan, dan politik.
         </p>
-        <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose mt-6 font-bold">Tujuan
+        <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose mt-6 font-bold"
+            data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">Tujuan
             Pembelajaran
             Khusus:</p>
         {{-- <img src="{{ asset('img/tujuan-pembelajaran.png') }}" alt="" class="float-right"> --}}
-        <ol
-            class="list-decimal leading-loose text-justify text-sm max-w-xl text-slate-900 lg:text-[14px] lg:leading-loose ml-4">
+        <ol class="list-decimal leading-loose text-justify text-sm max-w-xl text-slate-900 lg:text-[14px] lg:leading-loose ml-4"
+            data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">
             <li>
                 Siswa mampu menjelaskan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas,
                 iklim, geologi, rupa

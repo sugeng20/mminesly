@@ -5,11 +5,11 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <div class="w-full flex justify-center">
+        <div class="w-full flex justify-center" data-aos="fade-up" data-aos-delay="0">
 
             <img src="{{ asset('img/materi/benua_asia.png') }}" width="900" alt="">
         </div>
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="500">
             Benua Asia terletak pada 26° BT-170° BT dan 11° LS-80° LU. Sebagian wilayahnya berada di belahan bumi
             utara (BBU). Batas
             Benua Asia ialah samudera arktik di utara, Samudera Hindia di selatan, Benua Eropa, Pegunungan Ural,
