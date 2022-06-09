@@ -40,4 +40,9 @@ class SiswaController extends Controller
         Forum::create($data);
         return redirect('forum-diskusi');
     }
+
+    public function soal()
+    {
+        return view('pages.siswa.evaluasi.soal');
+    }
 }

@@ -40,7 +40,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_kd.png') }}" width="30" class="group-hover:scale-150 duration-500"
                             alt="">
-                        <button onclick="navigation(1)" id="kompetensi_dasar" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(2)" id="kompetensi_dasar" class="font-bold text-lg text-white ml-3">
                             Kompetensi Dasar
                         </button>
                     </li>
@@ -48,7 +48,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_indikator.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <button onclick="navigation(2)" id="indikator" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(3)" id="indikator" class="font-bold text-lg text-white ml-3">
                             Indikator
                         </button>
                     </li>
@@ -56,7 +56,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_tujuan.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <button onclick="navigation(3)" id="tujuan_pembelajaran"
+                        <button onclick="navigation(4)" id="tujuan_pembelajaran"
                             class="font-bold text-lg text-white ml-3">
                             Tujuan Pembelajaran
                         </button>
@@ -65,7 +65,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_petunjuk.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <button onclick="navigation(4)" id="petunjuk_penggunaan"
+                        <button onclick="navigation(5)" id="petunjuk_penggunaan"
                             class="font-bold text-lg text-white ml-3">
                             Petunjuk Penggunaan
                         </button>
@@ -74,7 +74,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_peta.png') }}" width="30" class="group-hover:scale-150 duration-500"
                             alt="">
-                        <button onclick="navigation(5)" id="peta_konsep" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(6)" id="peta_konsep" class="font-bold text-lg text-white ml-3">
                             Peta Konsep
                         </button>
                     </li>
@@ -82,7 +82,7 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_materi.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <button onclick="navigation(6)" id="materi_pembahasan"
+                        <button onclick="navigation(7)" id="materi_pembahasan"
                             class="font-bold text-lg text-white ml-3">
                             Materi Pembahasan
                         </button>
@@ -99,9 +99,9 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_evaluasi.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(108)" class="font-bold text-lg text-white ml-3">
                             Evaluasi
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">

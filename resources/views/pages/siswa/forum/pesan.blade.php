@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Selamat Datang
+Pesan
 @endsection
 
 @section('content')
