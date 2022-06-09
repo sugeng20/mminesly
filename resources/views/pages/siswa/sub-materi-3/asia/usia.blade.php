@@ -7,8 +7,9 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/asia/usia.png') }}" width="250" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/materi3/asia/usia.png') }}" width="250" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Penduduk Asia tersebar tidak merata. Beberapa negara di Asia merupakan negara dengan penduduk terbesar di
             dunia, seperti
             China, India, dan Indonesia. Wilayah dengan jumlah dan kepadatan penduduk tinggi terlihat di Asia Timur,
@@ -16,7 +17,7 @@
             dan Asia Selatan. Wilayah pedalaman Asia relatif lebih jarang penduduknya.
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Dilihat dari komposisinya berdasarkan usia, sebesar 25% penduduk Asia berusia dibawah usia 15 tahun dan
             sebesar 8%
             berusia 65 ke atas. Penduduk Asia berusia antara 15 sampai 65 tahun sebesar 67%. Ini berarti sebagian besar

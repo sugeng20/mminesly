@@ -7,8 +7,9 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Penduduk Asia tersebar tidak merata. Beberapa negara di Asia merupakan negara dengan penduduk terbesar di
             dunia, seperti
             China, India, dan Indonesia. Wilayah dengan jumlah dan kepadatan penduduk tinggi terlihat di Asia Timur,
@@ -16,7 +17,7 @@
             dan Asia Selatan. Wilayah pedalaman Asia relatif lebih jarang penduduknya.
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Dilihat dari komposisinya berdasarkan usia, sebesar 25% penduduk Asia berusia dibawah usia 15 tahun dan
             sebesar 8%
             berusia 65 ke atas. Penduduk Asia berusia antara 15 sampai 65 tahun sebesar 67%. Ini berarti sebagian besar
@@ -24,14 +25,14 @@
             Asia tergolong usia produktif. Penduduk usia produktif adalah penduduk berusia antara 15 sampai 65 tahun.
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">
             Apabila dilihat dari komposisi berdasarkan ras, penduduk di Benua Asia terdiri atas tiga ras utama yaitu Ras
             Mongoloid,
             Ras Kaukasoid, dan Ras Negroid. Tipe ras tersebut telah bercampur baur sehingga mengalami proses asimilasi
             antara satu dan lainnya. Dalam wilayah tertentu masih terdapat ras yang dominan sebagai berikut:
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="2500" data-aos-anchor="#content">
             • Asia Utara dan Asia Tengah mayoritas adalah ras Kaukasoid atau ras Europoid. <br />
             • Asia Timur dan Asia Tenggara sebagian besar adalah ras Mongoloid.<br />
             • Asia Selatan bagian tengah didominasi ras Kaukasoid.<br />
@@ -44,7 +45,7 @@
             didominasi ras Kaukasoid/Europoid dan ras Negroid.
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="3000" data-aos-anchor="#content">
             Asia memiliki budaya yang sangat beragam. Asia merupakan tempat lahirnya agama-agama besar di dunia, seperti
             Hindu,
             Sikh, Konfusianisme, Taoisme, Shinto, Buddha, Islam, Kristen, dan Yahudi (Judaism). Agama- agama yang lahir

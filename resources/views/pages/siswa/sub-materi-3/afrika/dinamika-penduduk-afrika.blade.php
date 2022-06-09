@@ -7,8 +7,9 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/benua_asia.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Sebaran penduduk Benua Afrika juga tidak merata. Wilayah tertentu hampir tidak berpenghuni yaitu wilayah
             gurun. Wilayah dengan kepadatan tinggi terdapat di bagian utara Afrika Utara, sebagian Afrika Barat, bagian
             timur Afrika
@@ -17,7 +18,7 @@
             Tengah Afrika.
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Sebagian besar penduduk Benua Afrika adalah keturunan negro yang berkulit hitam. Hal inilah yang menyebabkan
             Benua
             Afrika mendapat julukan Benua Hitam. Bangsa Negro di Afrika dikelompokkan menjadi dua golongan yaitu Negro
@@ -30,7 +31,8 @@
         </p>
 
 
-        <ul class="text-style-primary ml-4 list-disc">
+        <ul class="text-style-primary ml-4 list-disc" data-aos="fade-up" data-aos-delay="2000"
+            data-aos-anchor="#content">
             <li>
                 <b>Ras Negro</b>, yang mendiami sebelah selatan Gurun Sahara merupakan penduduk mayoritas. Ras Negro
                 ini terdiri atas beberapa suku bangsa

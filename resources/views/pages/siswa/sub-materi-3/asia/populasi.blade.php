@@ -7,16 +7,17 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/asia/populasi.png') }}" width="450" alt="" class="float-right ml-4">
+        <img src="{{ asset('img/materi/materi3/asia/populasi.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Apabila dilihat dari komposisi berdasarkan ras, penduduk di Benua Asia terdiri atas tiga ras utama yaitu Ras
             Mongoloid,
             Ras Kaukasoid, dan Ras Negroid. Tipe ras tersebut telah bercampur baur sehingga mengalami proses asimilasi
             antara satu dan lainnya. Dalam wilayah tertentu masih terdapat ras yang dominan sebagai berikut:
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             1) Asia Utara dan Asia Tengah mayoritas adalah ras Kaukasoid atau ras Europoid. <br />
             2) Asia Timur dan Asia Tenggara sebagian besar adalah ras Mongoloid.<br />
             3) Asia Selatan bagian tengah didominasi ras Kaukasoid.<br />

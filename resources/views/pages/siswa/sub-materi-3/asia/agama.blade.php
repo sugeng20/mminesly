@@ -7,9 +7,10 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/asia/agama.png') }}" width="350" alt="" class="float-right ml-4">
+        <img src="{{ asset('img/materi/materi3/asia/agama.png') }}" width="350" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Asia memiliki budaya yang sangat beragam. Asia merupakan tempat lahirnya agama-agama besar di dunia, seperti
             Hindu,
             Sikh, Konfusianisme, Taoisme, Shinto, Buddha, Islam, Kristen, dan Yahudi (Judaism). Agama- agama yang lahir

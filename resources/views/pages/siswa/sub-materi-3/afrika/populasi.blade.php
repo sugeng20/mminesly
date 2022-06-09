@@ -7,8 +7,9 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/afrika/populasi.png') }}" width="240" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/materi3/afrika/populasi.png') }}" width="240" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Sebaran penduduk Benua Afrika juga tidak merata. Wilayah tertentu hampir tidak berpenghuni yaitu wilayah
             gurun. Wilayah dengan kepadatan tinggi terdapat di bagian utara Afrika Utara, sebagian Afrika Barat, bagian
             timur Afrika

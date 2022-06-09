@@ -7,8 +7,9 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/amerika/agama.png') }}" width="350" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/materi3/amerika/agama.png') }}" width="350" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Penduduk Amerika Serikat sebagian besar (83%) menganut agama Kristen. Sisanya menganut agama Yahudi dan
             Islam. Selain itu terdapat pula penduduk Amerika Serikat yang tidak menganut agama atau ateis. Lalu pada
             penduduk Amerika Selatan didominasi oleh agama Katolik Roma. Selebihnya menganut agama Kristen Protestan,

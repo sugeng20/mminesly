@@ -687,6 +687,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .list-decimal {
   list-style-type: decimal;
 }
+.list-none {
+  list-style-type: none;
+}
 .flex-wrap {
   flex-wrap: wrap;
 }
