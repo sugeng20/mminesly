@@ -8,8 +8,9 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi4/wilayah/wilayah.png') }}" width="350" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/materi4/wilayah/wilayah.png') }}" width="350" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Wilayah yang luas dapat menjadi potensi dan penghambat bagi suatu negara. Wilayah yang luas merupakan
             potensi bagi suatu
             negara jika wilayah tersebut didukung oleh tanah yang subur, kaya akan kandungan bahan tambang, serta iklim

@@ -7,13 +7,13 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <div class="w-full flex justify-center">
+        <div class="w-full flex justify-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
             <img src="{{ asset('img/materi/materi4/sosial/peta.png') }}" width="700" alt="" class="float-right ml-4">
         </div>
 
 
         <div class="w-full flex flex-wrap">
-            <div class="w-full lg:w-1/2">
+            <div class="w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
                 <ul class="text-style-primary ml-4 list-disc">
                     <li>
                         <b>Benua Asia :</b>
@@ -53,7 +53,7 @@
 
                 </ul>
             </div>
-            <div class="w-full lg:w-1/2">
+            <div class="w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
                 <ul class="text-style-primary ml-4 list-disc">
                     <li>
                         <b>Benua Afrika :</b>

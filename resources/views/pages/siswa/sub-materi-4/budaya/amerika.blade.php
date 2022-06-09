@@ -7,9 +7,11 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi4/budaya/amerika.png') }}" width="450" alt="" class="float-right ml-4">
+        <img src="{{ asset('img/materi/materi4/budaya/amerika.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
 
-        <ul class="text-style-primary ml-4 list-disc">
+        <ul class="text-style-primary ml-4 list-disc" data-aos="fade-up" data-aos-delay="1000"
+            data-aos-anchor="#content">
 
             <li>
                 <b>2. Benua Amerika :</b> <br />
