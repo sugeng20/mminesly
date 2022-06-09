@@ -6,7 +6,7 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
             Benua Asia mempunyai banyak lembah sungai besar yang subur dan terletak pada pertemuan jalur Sirkum Pasifik
             dan Sirkum
             Mediterania. Sebagai akibatnya, Benua Asia mempunyai potensi alam yang menonjol di bidang pertanian dan
@@ -14,11 +14,12 @@
         </p>
 
 
-        <p class="text-title mt-2">
+        <p class="text-title mt-2" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             1. Bidang Pertanian
         </p>
-        <img src="{{ asset('img/materi/materi2/asia/pertanian.png') }}" width="450" alt="" class="float-right ml-4">
-        <p class="text-style-primary max-w-lg">
+        <img src="{{ asset('img/materi/materi2/asia/pertanian.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
+        <p class="text-style-primary max-w-lg" data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">
             Daerah pertanian potensial di Benua Asia terdapat di daerah sekitar lembah sungai besar. Dapat dilihat pada
             kawasan di
             Asia Tenggara banyak negara-negara yang menghasilkan padi, terutama Myanmar, Thailand, Vietnam, dan

@@ -38,7 +38,7 @@ class SiswaController extends Controller
         $data = $request->all();
         $data['id_user'] = Auth::user()->id;
         Forum::create($data);
-        return redirect('forum-diskusi');
+        return redirect('materi');
     }
 
     public function soal()

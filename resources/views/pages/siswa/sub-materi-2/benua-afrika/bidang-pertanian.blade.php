@@ -6,14 +6,16 @@
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
             Benua Afrika mempunyai potensi yang menonjol pada bidang pertanian dan pertambangan. Berikut ini adalah
             persebarannya:
         </p>
 
-        <p class="text-title">1. Bidang Pertanian</p>
-        <img src="{{ asset('img/materi/materi2/afrika/pertanian.png') }}" width="450" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">1. Bidang Pertanian
+        </p>
+        <img src="{{ asset('img/materi/materi2/afrika/pertanian.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">
             Pertanian di Benua Afrika terdapat pada lembah sungai besar, seperti lembah Sungai Oranye di Afrika Selatan,
             lembah
             Sungai Zambesi di Zambia dan Mozambik, lembah Sungai Niger di Nigeria, dan lembah Sungai kongo di Zaire.

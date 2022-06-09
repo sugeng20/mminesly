@@ -5,10 +5,11 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <p class="text-title">2. Bidang Pertambangan</p>
-        <img src="{{ asset('img/materi/materi2/afrika/pertambangan.png') }}" width="450" alt=""
-            class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">2. Bidang Pertambangan
+        </p>
+        <img src="{{ asset('img/materi/materi2/afrika/pertambangan.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Sebagian besar daerah Benua Afrika berupa dataran tinggi yang keras dan luas. Namun, daerah ini mempunyai
             kekayaan
             tambang alam yang besar. Barang tambangnya, antara lain tembaga, emas, uranium, dan timah yang terdapat di

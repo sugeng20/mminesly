@@ -2,7 +2,7 @@
     <div class="lg:w-2/6 w-full px-1 m-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0"
         data-aos-anchor="#content">
         <h1
-            class="text-center font-bubbleWater font-black leading-normal bg-gradient-to-r from-yellow-600 to-orange-500 text-transparent bg-clip-text text-2xl lg:text-4xl lg:leading-normal mb-2">
+            class="text-center font-bubbleWater font-black leading-normal bg-gradient-to-r from-yellow-600 to-orange-500 text-transparent bg-clip-text text-2xl lg:text-3xl lg:leading-normal mb-2">
             Selamat Datang di Materi Interaksi Antar Negara Asia dan Negara Lain di Dunia
         </h1>
         <div class="flex justify-center mb-6">

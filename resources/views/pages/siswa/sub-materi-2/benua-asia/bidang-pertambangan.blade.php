@@ -7,11 +7,12 @@
     <div class="w-full px-8 mb-10">
 
 
-        <p class="text-title">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
             2. Bidang Pertambangan
         </p>
-        <img src="{{ asset('img/materi/materi2/asia/pertambangan.png') }}" width="450" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/materi2/asia/pertambangan.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Hasil-hasil pertambangan yang menonjol di Benua Asia adalah minyak bumi. Negara-negara penghasil minyak bumi
             terdapat di
             Timur Tengah, Asia Tenggara, dan Asia Timur. Untuk timah putih terdapat di Negara Indonesia, Malaysia, dan
