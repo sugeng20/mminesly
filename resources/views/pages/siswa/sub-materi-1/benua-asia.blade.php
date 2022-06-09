@@ -5,11 +5,11 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <div class="w-full flex justify-center" data-aos="fade-up" data-aos-delay="0">
+        <div class="w-full flex justify-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
 
             <img src="{{ asset('img/materi/benua_asia.png') }}" width="900" alt="">
         </div>
-        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="500">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Benua Asia terletak pada 26° BT-170° BT dan 11° LS-80° LU. Sebagian wilayahnya berada di belahan bumi
             utara (BBU). Batas
             Benua Asia ialah samudera arktik di utara, Samudera Hindia di selatan, Benua Eropa, Pegunungan Ural,
@@ -19,7 +19,7 @@
             dan Samudera Pasifik di timur.
         </p>
 
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Benua Asia merupakan benua terluas di permukaan bumi, Luasnya mencapai 44.000.000 km2 atau seperempat
             luas wilayah daratan dunia atau empat setengah kali luas Benua Eropa. Adapun Benua Asia terbagi menjadi
             beberapa wilayah atau
@@ -32,17 +32,6 @@
     </div>
 
 
-</div>
-
-<div
-    class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
-
-    <button id="prev" class="hover:scale-125 duration-500 ease-in-out">
-        <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
-    </button>
-    <button id="next" class="hover:scale-125 duration-500 ease-in-out">
-        <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
-    </button>
 </div>
 
 @include('includes.navigasi')

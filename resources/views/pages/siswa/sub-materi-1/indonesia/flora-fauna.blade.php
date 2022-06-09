@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/indonesia/flora-fauna.png') }}" width="450" alt="" class="float-right ml-4">
-        <p class="text-title">5. Flora Fauna</p>
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/indonesia/flora-fauna.png') }}" width="450" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">5. Flora Fauna</p>
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Negara Indonesia memiliki berbagai macam jenis flora dan fauna di setiap wilayah daerahnya. Hal ini
             dikarenakan negara
             Indonesia memiliki wilayah hutan dan lautan yang terbentang luas sehingga banyak ditemukan berbagai jenis

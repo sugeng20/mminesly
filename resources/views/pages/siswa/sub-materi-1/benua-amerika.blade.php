@@ -5,11 +5,11 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <div class="w-full flex justify-center">
+        <div class="w-full flex justify-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
             <img src="{{ asset('img/materi/benua_amerika.png') }}" width="500" alt="">
         </div>
 
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="#content">
             Benua Amerika sering juga disebut Benua Merah. Sebutan itu didapat karena Benua tersebut terdapat Suku
             Bangsa Indian.
             Suku Indian tidak berkulit merah sebenarnya kulit mereka terlihat merah karena Suku Indian suka melumuri
@@ -17,7 +17,7 @@
             cat berwarna merah.
         </p>
 
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Benua Amerika terletak pada 170° BT-35° BB dan 83° LU-55° LS. Batas Benua Amerika ialah Samudera Arktik di
             utara, Laut
             Weddel, Samudera Atlantik, dan Samudera Pasifik di selatan, Samudera Atlantik di timur, serta Samudera

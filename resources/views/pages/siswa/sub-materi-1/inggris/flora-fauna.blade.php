@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/inggris/flora-fauna.png') }}" width="380" alt="" class="float-right ml-4">
-        <p class="text-title">5. Flora Fauna</p>
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/inggris/flora-fauna.png') }}" width="380" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">5. Flora Fauna</p>
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Flora yang dapat dijumpai di Inggris adalah pohon ek dan elm, horse chesnut, spruce Norwegia, larch Jepang,
             dan fir
             Douglas. Fauna yang masih banyak dijumpai adalah rusa merah Skotlandia dan sekitar 400 burung termasuk

@@ -5,10 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <div class="w-full flex justify-center">
+        <div class="w-full flex justify-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
             <img src="{{ asset('img/materi/benua_afrika.png') }}" width="700" alt="">
         </div>
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Benua Afrika juga dikenal dengan Benua Hitam yang dimana mayoritas penduduknya mempunyai kulit berwarna
             hitam. Sebutan
             ini awal mulanya digunakan oleh masyarakat Prancis yang dahulu banyak menjajah Benua Afrika. Afrika terletak
@@ -18,7 +18,7 @@
             tropis.
         </p>
 
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Benua Afrika merupakan benua terbesar ketiga setelah Asia dan Amerika. Adapun Benua Afrika berbatasan dengan
             Laut Tengah
             di utara, Samudera Hindia di selatan dan timur, serta Samudera Atlantik di barat. Luas keseluruhan wilayah

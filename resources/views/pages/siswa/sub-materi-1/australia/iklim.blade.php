@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <p class="text-title">2. Iklim</p>
-        <img src="{{ asset('img/materi/australia/iklim.png') }}" width="500" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">2. Iklim</p>
+        <img src="{{ asset('img/materi/australia/iklim.png') }}" width="500" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Iklim di Australia bervariasi karena wilayahnya yang sangat luas. Australia berada pada tiga wilayah lintang
             yaitu
             wilayah lintang tropis, subtropis, dan sedang. Wilayah Australia yang berada pada lintang tropis, suhu
@@ -17,7 +18,7 @@
             pedalamannya paling sedikit 1.000- 1.500 mm.
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">
             Di kawasan iklim lembap subtropis, suhu rata-rata tahunan antara 16°C dan 21°C. Rata-rata curah hujannya
             antara 500-1500
             mm/tahun. Di kawasan iklim sedang dan lembap, suhu tahunan berkisar antara 10°C-16°C. Curah hujan bervariasi

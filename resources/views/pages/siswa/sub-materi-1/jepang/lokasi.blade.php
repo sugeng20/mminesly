@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/jepang/lokasi.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-title">1. Lokasi</p>
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/jepang/lokasi.png') }}" width="400" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">1. Lokasi</p>
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Secara astronomis Jepang berada pada 30°LU-47°LU dan 128°BT-146°BT. Negara Jepang terletak pada barat laut
             Samudera
             Pasifik. Negara ini berbatasan di sebelah barat dengan Korea Utara, Korea Selatan, dan Rusia. Di sebelah

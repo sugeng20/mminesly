@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <p class="text-title">2. Iklim</p>
-        <img src="{{ asset('img/materi/inggris/iklim.png') }}" width="500" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">2. Iklim</p>
+        <img src="{{ asset('img/materi/inggris/iklim.png') }}" width="500" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Berdasarkan posisi lintangnya, Inggris memiliki iklim sedang. Negara ini dikelilingi lautan sehingga
             memiliki iklim laut
             dengan ciri sejuk dan basah. Karena itu, hampir sepanjang tahun Inggris mengalami hari-hari yang sejuk dan

@@ -5,9 +5,11 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/indonesia/kondisi.png') }}" width="500" alt="" class="float-right ml-4">
-        <p class="text-title">6. Kondisi Penduduk</p>
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/indonesia/kondisi.png') }}" width="500" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">6. Kondisi Penduduk
+        </p>
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Masyarakat Indonesia merupakan masyarakat yang majemuk, dimana Indonesia memiliki berbagai macam bahasa,
             agama, mata
             pencaharian, suku bangsa, dan lain- lain. Letak wilayah Indonesia ternyata banyak berpengaruh pada kehidupan

@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <p class="text-title">6. Kondisi Penduduk</p>
-        <img src="{{ asset('img/materi/australia/kondisi.png') }}" width="500" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">6. Kondisi Penduduk</p>
+        <img src="{{ asset('img/materi/australia/kondisi.png') }}" width="500" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Penduduk asli Australia adalah Suku Aborigin. Penduduk lainnya adalah pendatang dari berbagai negara dan
             benua.
             Rata-rata ada 393 pendatang atau imigran per hari ke Australia. Struktur penduduk Australia berdasarkan usia

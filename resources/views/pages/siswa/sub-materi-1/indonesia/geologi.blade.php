@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <p class="text-title">4. Geologi</p>
-        <img src="{{ asset('img/materi/indonesia/geologi.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">4. Geologi</p>
+        <img src="{{ asset('img/materi/indonesia/geologi.png') }}" width="400" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Secara geologi Indonesia berada pada jalur pertemuan 3 lempeng tektonik dunia, yaitu: Lempeng
             Indo-Australia, lempeng
             Eurasia, dan lempeng Pasifik. Hal tersebut berpengaruh pada potensi geologis Indonesia:<br />

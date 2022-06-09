@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <p class="text-title">5. Flora Fauna</p>
-        <img src="{{ asset('img/materi/arab/flora-fauna.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-style-primary">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">5. Flora Fauna</p>
+        <img src="{{ asset('img/materi/arab/flora-fauna.png') }}" width="400" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Adapun pada jenis flora dan fauna yang terdapat pada negara Arab Saudi memiliki beragam jenis yang berbeda-
             beda sesuai
             dengan keadaan kondisi habitatnya di gurun. Dalam jenis flora terdapat beberapa rumput dan pohon tumbuh di

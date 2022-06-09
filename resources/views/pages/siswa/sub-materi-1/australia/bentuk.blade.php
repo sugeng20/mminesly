@@ -5,9 +5,11 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/australia/bentuk.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-title">3. Bentuk Muka Bumi</p>
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/australia/bentuk.png') }}" width="400" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">3. Bentuk Muka Bumi
+        </p>
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Setidaknya terdapat empat bentuk muka bumi di Australia yaitu, Dataran Pantai, Dataran Tinggi Timur, Dataran
             Rendah
             Tengah, dan Plato. Dataran pantai terdapat di bagian timur Australia yang memanjang dari Queensland sampai
@@ -17,7 +19,7 @@
             Australia. Wilayahnya memanjang sejauh 3.500 km dari Cape York Peninsula sampai Tasmania.
         </p>
 
-        <p class="text-style-primary">
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">
             Sedangkan pada Dataran Rendah Tengah memiliki ciri sangat datar, ketinggian sekitar 200 m diatas permukaan
             laut,
             tersusun atas batuan berusia tua, sangat kering dan sangat panas (memiliki gurun dan semi gurun). Dataran

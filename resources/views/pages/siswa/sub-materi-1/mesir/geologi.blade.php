@@ -5,9 +5,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <img src="{{ asset('img/materi/mesir/geologi.png') }}" width="400" alt="" class="float-right ml-4">
-        <p class="text-title">4. Geologi</p>
-        <p class="text-style-primary">
+        <img src="{{ asset('img/materi/mesir/geologi.png') }}" width="400" alt="" class="float-right ml-4"
+            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
+        <p class="text-title" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">4. Geologi</p>
+        <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Mesir memiliki sumber daya alam berupa minyak dan gas, bijih besi,posfat, mangan, lempung, gipsum, talk,
             asbes, timah,
             emas, dan zinc. Gurun Mesir menyediakan pasokan garam yang berlimpah.

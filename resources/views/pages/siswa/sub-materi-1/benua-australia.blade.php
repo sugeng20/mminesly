@@ -6,10 +6,10 @@
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full px-8 mb-10">
-        <div class="w-full flex justify-center">
+        <div class="w-full flex justify-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
             <img src="{{ asset('img/materi/benua_australia.png') }}" width="600" alt="">
         </div>
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
             Benua Australia terletak pada 113° BT-155° BT dan 10° LS-43° LS. Hal ini menandakan bahwa Benua Australia
             memiliki iklim
             tropis dan sebagian wilayahnya juga beriklim subtropis dan sedang. Secara geografis, Benua Australia
@@ -21,7 +21,7 @@
             barat berbatasan dengan Samudera Hindia.
         </p>
 
-        <p class="text-style-primary text-justify">
+        <p class="text-style-primary text-justify" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Luas wilayah Benua Australia adalah 8.945.000 km2 dengan lebar sekitar 3.200 km dan panjang 3.700 km.
             Australia terdiri
             atas delapan negara bagian yaitu Australia Utara, Australia Selatan, Australia Barat, Victoria, New South
