@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
                 'nama_depan' => 'guru',
                 'nama_belakang' => 'smp',
                 'email' => 'guru@gmail.com',
-                'nis_nik' => 12346,
+                'nis_nik' => 123456,
                 'password' => Hash::make('guru'),
                 'role' => 'GURU'
             ],
