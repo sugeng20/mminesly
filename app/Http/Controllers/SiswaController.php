@@ -53,7 +53,7 @@ class SiswaController extends Controller
 
     public function soal()
     {
-        $questions = Question::all();
+        $questions = Question::inRandomOrder()->get();
         return view('pages.siswa.evaluasi.soal', compact('questions'));
     }
 

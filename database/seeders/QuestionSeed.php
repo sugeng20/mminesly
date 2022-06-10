@@ -195,7 +195,7 @@ class QuestionSeed extends Seeder
             ],
             [
                 'id' => 17,
-                'question' => '17.	Rata-rata masyarakat di Benua Asia yang memiliki profesi di bidang industri tersebar di wilayah negara.....',
+                'question' => 'Rata-rata masyarakat di Benua Asia yang memiliki profesi di bidang industri tersebar di wilayah negara.....',
                 'a' => 'Thailand, Myanmar, Vietnam, dan Laos',
                 'b' => 'Inggris, Jerman, Belanda, dan Swiss',
                 'c' => 'Singapura, Jepang, Taiwan, China, dan Korea Selatan',
