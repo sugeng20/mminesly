@@ -385,3 +385,16 @@ Route::get('/halaman-108', function() {
     return view('pages.siswa.evaluasi.index');
 });
 Route::get('/soal', [SiswaController::class, 'soal']);
+
+
+Route::get('/halaman-109', function() {
+    return view('pages.siswa.referensi');
+});
+
+Route::get('/halaman-110', function() {
+    return view('pages.siswa.profile-pengembang');
+});
+
+Route::get('/halaman-111', function() {
+    return view('pages.siswa.user');
+});
