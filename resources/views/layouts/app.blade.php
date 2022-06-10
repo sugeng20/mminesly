@@ -107,17 +107,17 @@
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_referensi.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(109)" class="font-bold text-lg text-white ml-3">
                             Referensi
-                        </a>
+                        </button>
                     </li>
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_profile.png') }}" width="30"
                             class="group-hover:scale-150 duration-500" alt="">
-                        <a href="#" class="font-bold text-lg text-white ml-3">
+                        <button onclick="navigation(110)" class="font-bold text-lg text-white ml-3">
                             Profil Pengembang
-                        </a>
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -147,7 +147,7 @@
                         </button>
                     </li>
                     <li class="mr-2 lg:mr-6 group">
-                        <a href="#">
+                        <a onclick="navigation(111)" class="cursor-pointer">
                             <img src="{{ asset('img/ic_user.png') }}" class="group-hover:scale-125 duration-500"
                                 width="50" alt="">
                         </a>

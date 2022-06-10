@@ -583,6 +583,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex {
   display: flex;
 }
+.table {
+  display: table;
+}
 .h-12 {
   height: 3rem;
 }
@@ -695,6 +698,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-end {
   justify-content: flex-end;
@@ -876,6 +882,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;
