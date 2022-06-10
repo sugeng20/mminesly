@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Forum;
+use App\Models\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -43,6 +44,7 @@ class SiswaController extends Controller
 
     public function soal()
     {
-        return view('pages.siswa.evaluasi.soal');
+        $questions = Question::all();
+        return view('pages.siswa.evaluasi.soal', compact('questions'));
     }
 }

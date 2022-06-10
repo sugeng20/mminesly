@@ -14,29 +14,43 @@ Selamat Datang
     <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
 
         <div class="w-full px-8 mb-10">
-            <p class="text-style lg:text-lg mb-6">
-                1. Soal Pilihan Ganda
-            </p>
+            <form action="">
+                @csrf
+                @php
+                $no = 1;
+                @endphp
+                @foreach ($questions as $question)
+                <section class="mb-10">
+                    <p class="text-style lg:text-lg mb-6">
+                        {{ $no++ }}. {{ $question->question }}
+                    </p>
 
-            <div class="w-full flex items-center mb-4">
-                <input type="radio" name="soal1" id="pilihan1" value="a" class="mr-3">
-                <label for="pilihan1">a. Pilihan 1</label>
-            </div>
+                    <div class="w-full flex items-center mb-4">
+                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan1_{{ $question->id }}"
+                            value="a" class="mr-3" required>
+                        <label for="pilihan1_{{ $question->id }}">a. {{ $question->a }}</label>
+                    </div>
 
-            <div class="w-full flex items-center mb-4">
-                <input type="radio" name="soal1" id="pilihan2" value="b" class="mr-3">
-                <label for="pilihan2">b. Pilihan 2</label>
-            </div>
+                    <div class="w-full flex items-center mb-4">
+                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan2_{{ $question->id }}"
+                            value="b" class="mr-3" required>
+                        <label for="pilihan2_{{ $question->id }}">b. {{ $question->b }}</label>
+                    </div>
 
-            <div class="w-full flex items-center mb-4">
-                <input type="radio" name="soal1" id="pilihan3" value="c" class="mr-3">
-                <label for="pilihan3">c. Pilihan 3</label>
-            </div>
+                    <div class="w-full flex items-center mb-4">
+                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan3_{{ $question->id }}"
+                            value="c" class="mr-3" required>
+                        <label for="pilihan3_{{ $question->id }}">c. {{ $question->c }}</label>
+                    </div>
 
-            <div class="w-full flex items-center">
-                <input type="radio" name="soal1" id="pilihan4" value="d" class="mr-3">
-                <label for="pilihan4">d. Pilihan 4</label>
-            </div>
+                    <div class="w-full flex items-center">
+                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan4_{{ $question->id }}"
+                            value="d" class="mr-3" required>
+                        <label for="pilihan4_{{ $question->id }}">d. {{ $question->d }}</label>
+                    </div>
+                </section>
+                @endforeach
+            </form>
         </div>
 
     </div>
