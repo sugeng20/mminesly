@@ -381,10 +381,9 @@ Route::get('/forum-diskusi-pesan', [SiswaController::class, 'ForumDiskusiPesan']
 Route::post('/post-diskusi', [SiswaController::class, 'postDiskusi']);
 
 // Evaluasi
-Route::get('/halaman-108', function() {
-    return view('pages.siswa.evaluasi.index');
-});
+Route::get('/halaman-108', [SiswaController::class, 'evaluasi']);
 Route::get('/soal', [SiswaController::class, 'soal']);
+Route::post('/postSoal', [SiswaController::class, 'postSoal']);
 
 
 Route::get('/halaman-109', function() {

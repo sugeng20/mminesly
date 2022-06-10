@@ -50,6 +50,6 @@
 @include('includes.navigasi')
 
 <a href="{{ url('forum-diskusi-pesan') }}"
-    class="px-6 py-2 absolute bottom-6 right-10 bg-cover bg-center flex justify-between items-center bg-green-600 text-white rounded-full shadow-xl hover:scale-110 duration-500 ease-in-out">
+    class="px-6 py-2 absolute bottom-6 right-10 bg-cover bg-center flex justify-between items-center bg-green-600 text-white rounded-full shadow-xl hover:scale-110 duration-500 ease-in-out sound">
     Kirim Pesan
 </a>

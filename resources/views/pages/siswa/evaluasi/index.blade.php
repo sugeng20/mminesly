@@ -4,6 +4,22 @@
 </div>
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
+
+
+
+
+    @if($cek > 0)
+    <div class="w-full flex flex-wrap px-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="w-full lg:w-1/2 m-auto">
+            <p class="text-3xl font-bold text-center mb-6">Skor Anda Adalah : </p>
+            <p class="text-7xl font-bold text-center">{{ $evaluation->score }}</p>
+        </div>
+        <div class="w-full lg:w-1/2 flex h-full justify-center items-center">
+            <img src="{{ asset('img/evaluasi.png') }}" width="350" class="float-right" alt="" data-aos="fade-up"
+                data-aos-anchor="#content" data-aos-delay="500">
+        </div>
+    </div>
+    @else
     <div class="w-full px-6" data-aos="fade-up" data-aos-delay="0">
         <img src="{{ asset('img/evaluasi.png') }}" width="350" class="float-right" alt="" data-aos="fade-up"
             data-aos-anchor="#content" data-aos-delay="500">
@@ -25,6 +41,9 @@
                 class="py-3 px-10 bg-[#4BB15E] cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500 font-bubbleWater">Mulai</a>
         </div>
     </div>
+    @endif
+
+
 
 </div>
 

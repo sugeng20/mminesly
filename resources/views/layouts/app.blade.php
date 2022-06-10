@@ -160,7 +160,7 @@
                     </li>
                     <li class="group">
                         <a href="{{ url('logout') }}" onclick="return confirm('Apakah anda yakin keluar?')">
-                            <img src="{{ asset('img/ic_exit.png') }}" class="group-hover:scale-125 duration-500"
+                            <img src="{{ asset('img/ic_exit.png') }}" class="group-hover:scale-125 duration-500 sound"
                                 width="50" alt="">
                         </a>
                     </li>
@@ -224,6 +224,10 @@
             </a>
             `)
         }
+
+        $('.sound').click(function() {
+            bunyi();
+        })
     
 
         

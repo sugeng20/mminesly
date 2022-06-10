@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Selamat Datang
+Evaluasi
 @endsection
 
 @section('content')
@@ -14,42 +14,61 @@ Selamat Datang
     <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
 
         <div class="w-full px-8 mb-10">
-            <form action="">
+            <form action="{{ url('postSoal') }}" method="POST">
                 @csrf
                 @php
                 $no = 1;
                 @endphp
                 @foreach ($questions as $question)
-                <section class="mb-10">
+                <input type="hidden" name="question[{{ $no }}]" value="{{ $question->id }}">
+                <section class="mt-6" id="halaman{{ $no }}" {{ $no==1 ? "" : "hidden" }}>
                     <p class="text-style lg:text-lg mb-6">
-                        {{ $no++ }}. {{ $question->question }}
+                        {{ $no }}. {{ $question->question }}
                     </p>
 
-                    <div class="w-full flex items-center mb-4">
-                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan1_{{ $question->id }}"
-                            value="a" class="mr-3" required>
+                    <div class="w-full flex items-center mb-4 sound">
+                        <input type="radio" name="choice[{{ $no }}]" id="pilihan1_{{ $question->id }}" value="a"
+                            class="mr-3" required>
                         <label for="pilihan1_{{ $question->id }}">a. {{ $question->a }}</label>
                     </div>
 
-                    <div class="w-full flex items-center mb-4">
-                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan2_{{ $question->id }}"
-                            value="b" class="mr-3" required>
+                    <div class="w-full flex items-center mb-4 sound">
+                        <input type="radio" name="choice[{{ $no }}]" id="pilihan2_{{ $question->id }}" value="b"
+                            class="mr-3" required>
                         <label for="pilihan2_{{ $question->id }}">b. {{ $question->b }}</label>
                     </div>
 
-                    <div class="w-full flex items-center mb-4">
-                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan3_{{ $question->id }}"
-                            value="c" class="mr-3" required>
+                    <div class="w-full flex items-center mb-4 sound">
+                        <input type="radio" name="choice[{{ $no }}]" id="pilihan3_{{ $question->id }}" value="c"
+                            class="mr-3" required>
                         <label for="pilihan3_{{ $question->id }}">c. {{ $question->c }}</label>
                     </div>
 
-                    <div class="w-full flex items-center">
-                        <input type="radio" name="question[{{ $question->id }}]" id="pilihan4_{{ $question->id }}"
-                            value="d" class="mr-3" required>
+                    <div class="w-full flex items-center sound">
+                        <input type="radio" name="choice[{{ $no }}]" id="pilihan4_{{ $question->id }}" value="d"
+                            class="mr-3" required>
                         <label for="pilihan4_{{ $question->id }}">d. {{ $question->d }}</label>
                     </div>
                 </section>
+                @php
+                $no++
+                @endphp
                 @endforeach
+
+                <section id="halaman21" class="w-full m-auto" hidden>
+                    <div>
+                        <p class="text-center text-2xl font-bold mt-8">
+                            Apakah Anda yakin dengan semua pilihan yang anda jawab?
+                        </p>
+                        <div class="flex justify-center mt-10">
+                            <button type="button" onclick="prev()"
+                                class="py-3 px-10 bg-slate-400 cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500">Kembali</button>
+                            <button type="submit"
+                                class="py-3 px-10 bg-[#4BB15E] cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500">Selesai</button>
+                        </div>
+                    </div>
+                </section>
+
             </form>
         </div>
 
@@ -58,10 +77,10 @@ Selamat Datang
     <div
         class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
 
-        <a href="{{ url('materi') }}" class="hover:scale-125 duration-500 ease-in-out">
+        <a onclick="prev()" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
             <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
         </a>
-        <a href="{{ url('materi') }}" class="hover:scale-125 duration-500 ease-in-out">
+        <a onclick="next()" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
             <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
         </a>
     </div>
@@ -69,5 +88,28 @@ Selamat Datang
 @endsection
 
 @push('script')
-<script src="{{ url('ckeditor/ckeditor.js') }}"></script>
+<script>
+    var halaman = 1;
+
+    function next()
+    {
+        bunyi();
+        $(`#halaman${halaman}`).prop('hidden', true);
+        halaman++;
+        $(`#halaman${halaman}`).prop('hidden', false);
+    }
+
+    function prev()
+    {
+        bunyi();
+        if(halaman != 1) {
+            $(`#halaman${halaman}`).prop('hidden', true);
+            halaman--;
+            $(`#halaman${halaman}`).prop('hidden', false);
+        }
+        
+    }
+
+
+</script>
 @endpush
