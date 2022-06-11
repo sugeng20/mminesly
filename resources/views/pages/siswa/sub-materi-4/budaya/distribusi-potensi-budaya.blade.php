@@ -20,7 +20,7 @@
             paling menjadi ciri khas yang dikenal oleh seluruh penduduk di seluruh Dunia sebagai berikut:
         </p>
 
-        <ul class="text-style-primary ml-4 list-disc">
+        <ul class="text-style-primary ml-4 list-none">
             <li>
                 <b>Benua Asia :</b> <br />
                 Benua Asia memiliki ciri khas yang dikenal oleh seluruh dunia dalam bentuk budaya atau kebiasaan yang

@@ -13,7 +13,7 @@
     <style>
         @font-face {
             font-family: 'BubbleWater';
-            src: url('fonts/PoetsenOne-Regular.ttf');
+            src: url('/fonts/PoetsenOne-Regular.ttf');
         }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

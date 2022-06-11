@@ -12,4 +12,9 @@ class Answer extends Model
     protected $fillable = [
         'evaluation_id', 'question_id', 'answer'
     ];
+
+    public function question()
+    {
+        return $this->hasOne(Question::class, 'id', 'question_id');
+    }
 }

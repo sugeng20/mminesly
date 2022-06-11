@@ -56,7 +56,7 @@ class QuestionSeed extends Seeder
                 'a' => 'Benua Afrika',
                 'b' => 'Benua Asia',
                 'c' => 'Benua Eropa',
-                'd' => 'Benua Anerika',
+                'd' => 'Benua Amerika',
                 'key' => 'c',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),

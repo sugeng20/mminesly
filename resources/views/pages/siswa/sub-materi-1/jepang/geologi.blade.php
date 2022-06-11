@@ -11,7 +11,7 @@
             data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
         <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Jepang terletak di tepi bagian barat dari Samudera Pasifik yang dimana daerah ini merupakan bagian dari
-            cinci api yang
+            cincin api yang
             terdiri atas banyak gunung api. Setidaknya terdapat 192 gunung api yang tersebar di negara Jepang. Salah
             satu
             diantaranya merupakan yang tertinggi di Jepang yaitu Gunung Fuji (3.776 m). Karena banyaknya gunung api,

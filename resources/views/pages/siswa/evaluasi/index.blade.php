@@ -4,15 +4,16 @@
 </div>
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
-
-
-
-
+    @if(Auth::user()->role == 'SISWA')
     @if($cek > 0)
     <div class="w-full flex flex-wrap px-6" data-aos="fade-up" data-aos-delay="0">
         <div class="w-full lg:w-1/2 m-auto">
             <p class="text-3xl font-bold text-center mb-6">Skor Anda Adalah : </p>
             <p class="text-7xl font-bold text-center">{{ $evaluation->score }}</p>
+            <div class="flex justify-center mt-3" data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="500">
+                <a href="{{ url('review', $evaluation->id) }}"
+                    class="py-3 px-10 bg-[#4BB15E] cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500 font-bubbleWater">Review</a>
+            </div>
         </div>
         <div class="w-full lg:w-1/2 flex h-full justify-center items-center">
             <img src="{{ asset('img/evaluasi.png') }}" width="350" class="float-right" alt="" data-aos="fade-up"
@@ -40,6 +41,43 @@
             <a href="{{ url('soal') }}"
                 class="py-3 px-10 bg-[#4BB15E] cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500 font-bubbleWater">Mulai</a>
         </div>
+    </div>
+    @endif
+    @else
+    <div class="w-full px-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="flex justify-start mt-2 mb-4">
+            <a href="{{ url('soal') }}"
+                class="py-1 px-6 mr-4 bg-[#4BB15E] cursor-pointer text-white text-md rounded-full hover:opacity-80 hover:shadow-lg hover:scale-105 transition duration-500">Lihat
+                Soal</a>
+            <a href="{{ url('excel') }}"
+                class="py-1 px-6 mr-4 bg-green-700 cursor-pointer text-white text-md rounded-full hover:opacity-80 hover:shadow-lg hover:scale-105 transition duration-500">Export
+                Excel</a>
+            <a href="{{ url('pdf') }}"
+                class="py-1 px-6 mr-4 bg-red-700 cursor-pointer text-white text-md rounded-full hover:opacity-80 hover:shadow-lg hover:scale-105 transition duration-500">Export
+                PDF</a>
+        </div>
+        <table class="border-separate  border w-full border-slate-300" style="border-spacing: 0px 0px">
+            <tr>
+                <th class="border border-slate-300 p-2">No</th>
+                <th class="border border-slate-300 p-2">Nama Siswa</th>
+                <th class="border border-slate-300 p-2">Skor</th>
+            </tr>
+            @php
+            $no = 1;
+            @endphp
+            @forelse ($evaluations as $evaluation)
+            <tr>
+                <td class="border border-slate-300 px-4 py-2">{{ $no++ }}</td>
+                <td class="border border-slate-300 px-4 py-2">{{ $evaluation->user->nama_depan }} {{
+                    $evaluation->user->nama_belakang }}</td>
+                <td class="border border-slate-300 px-4 py-2">{{ $evaluation->score }}</td>
+            </tr>
+            @empty
+            <tr>
+                <td colspan="3" class="text-center border border-slate-300 py-4">Belum Ada Siswa yang mengerjakan</td>
+            </tr>
+            @endforelse
+        </table>
     </div>
     @endif
 

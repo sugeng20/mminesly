@@ -10,7 +10,7 @@
         <img src="{{ asset('img/materi/indonesia/lokasi.png') }}" width="500" alt="" class="float-right ml-4"
             data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
         <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
-            Letak astronomis indonesia terletak antara 6oLU- 11oLS dan 95o BT- 141oBT. Secara geografis, Indonesia
+            Letak astronomis indonesia terletak antara 6°LU- 11°LS dan 95° BT- 141°BT. Secara geografis, Indonesia
             terletak di
             antara 2 samudera besar dunia, yaitu Samudra Pasifik dan Samudra Hindia, di antara 2 benua besar yaitu Benua
             Asia dan

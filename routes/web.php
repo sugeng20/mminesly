@@ -382,7 +382,10 @@ Route::post('/post-diskusi', [SiswaController::class, 'postDiskusi']);
 
 // Evaluasi
 Route::get('/halaman-108', [SiswaController::class, 'evaluasi']);
+Route::get('/excel', [SiswaController::class, 'excel']);
+Route::get('/pdf', [SiswaController::class, 'pdf']);
 Route::get('/soal', [SiswaController::class, 'soal']);
+Route::get('/review/{id}', [SiswaController::class, 'review']);
 Route::post('/postSoal', [SiswaController::class, 'postSoal']);
 
 

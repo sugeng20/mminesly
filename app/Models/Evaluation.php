@@ -12,4 +12,9 @@ class Evaluation extends Model
     protected $fillable = [
         'user_id', 'score'
     ];
+
+    public function user()
+    {
+        return $this->hasOne(User::class, 'id', 'user_id');
+    }
 }
