@@ -23,6 +23,9 @@ Route::post('/reset-password', [AuthController::class, 'resetPassword']);
 Route::post('/authenticate', [AuthController::class, 'authenticate']);
 Route::get('/logout', [AuthController::class, 'logout']);
 
+Route::middleware(['auth'])->group(function() {
+
+
 Route::get('/materi', [SiswaController::class, 'index']);
 
 Route::get('/halaman-1', function() {
@@ -400,4 +403,6 @@ Route::get('/halaman-110', function() {
 
 Route::get('/halaman-111', function() {
     return view('pages.siswa.user');
+});
+
 });

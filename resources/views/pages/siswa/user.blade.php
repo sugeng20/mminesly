@@ -43,7 +43,11 @@
         </div>
         <div class="w-full lg:w-1/2 flex items-center justify-center" data-aos="fade-up" data-aos-anchor="#content"
             data-aos-delay="1000">
-            <img src="{{ asset('img/petunjuk/profil.png') }}" width="250" class="" alt="">
+            @if(Auth::user()->role == 'SISWA')
+            <img src="{{ asset('img/user-siswa.png') }}" width="250" class="" alt="">
+            @else
+            <img src="{{ asset('img/user-guru.png') }}" width="250" class="" alt="">
+            @endif
         </div>
 
     </div>
