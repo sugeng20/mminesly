@@ -17,7 +17,7 @@
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
             data-aos-delay="500">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/home.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -27,7 +27,7 @@
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
             data-aos-delay="1000">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/profil.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -38,7 +38,7 @@
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
             data-aos-delay="1500">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/audio_on.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -51,7 +51,7 @@
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6" data-aos="fade-up" data-aos-anchor="#content"
             data-aos-delay="2000">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/audio_off.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -64,7 +64,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/next.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/back.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -87,7 +87,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/kompetensi_dasar.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -101,7 +101,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/indikator.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -115,7 +115,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/tujuan_pembelajaran.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -129,7 +129,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/petunjuk_penggunaan.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -143,7 +143,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/peta_konsep.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -156,7 +156,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/materi_pembahasan.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -168,7 +168,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/forum_diskusi.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -180,7 +180,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/evaluasi.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -193,7 +193,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/referensi.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
@@ -207,7 +207,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
-            <div class="w-1/5">
+            <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/profil_pengembang.png') }}" alt="" width="60">
             </div>
             <div class="w-4/5">
