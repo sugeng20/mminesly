@@ -19,6 +19,7 @@ Route::get('/', [AuthController::class, 'login'])->name('login');
 Route::get('/register', [AuthController::class, 'register']);
 Route::post('/registration', [AuthController::class, 'registration']);
 Route::get('/lupa-password', [AuthController::class, 'lupaPassword']);
+Route::post('/reset-password', [AuthController::class, 'resetPassword']);
 Route::post('/authenticate', [AuthController::class, 'authenticate']);
 Route::get('/logout', [AuthController::class, 'logout']);
 

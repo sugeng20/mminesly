@@ -71,4 +71,18 @@ class AuthController extends Controller
 
         return redirect('/');
     }
+
+    public function resetPassword(Request $request)
+    {
+        $user = User::where('email', $request->email)->first();
+        if($user) {
+            $password = Hash::make('123456');
+            $data = $user->update(['password' => $password]);
+            
+            return redirect('lupa-password')->with('success', 'Berhasil Reset Password');
+        } else {
+            return redirect('lupa-password')->with('error', 'Email Tidak ditemukan');
+        }
+
+    }
 }
