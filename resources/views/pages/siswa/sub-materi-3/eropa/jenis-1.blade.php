@@ -5,25 +5,33 @@
 </div>
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
-    <div class="w-full px-8 mb-10">
+    <div class="w-full flex flex-wrap px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/eropa/jenis-1.png') }}" width="350" alt="" class="float-right ml-4"
-            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
 
-        <ul class="text-style-primary ml-4 list-none" data-aos="fade-up" data-aos-delay="1000"
-            data-aos-anchor="#content">
-            Berdasarkan ras dan ciri fisiknya, penduduk Eropa dikelompokkan menjadi lima suku bangsa diantaranya
-            meliputi:
-            <li>
-                <b>1. Bangsa Nordik</b>, ciri fisik suku bangsa ini memiliki rambut pirang, mata biru, tengkorak
-                panjang,
-                dan muka
-                sempit. Mereka
-                banyak tinggil di Eropa Barat dan Eropa Utara, yaitu Norwegia, Inggris, Denmark, Belanda,
-                Swedia, Belgia, dan Jerman bagian utara.
-            </li>
+        <div class="w-full lg:w-1/2 flex items-center justify-center">
+            <div class="flex justify-center items-center">
+                <ul class="text-style-primary  ml-4 list-none" data-aos="fade-up" data-aos-delay="1000"
+                    data-aos-anchor="#content">
+                    Berdasarkan ras dan ciri fisiknya, penduduk Eropa dikelompokkan menjadi lima suku bangsa diantaranya
+                    meliputi:
+                    <li class="text-center">
+                        <b>1. Bangsa Nordik</b>, ciri fisik suku bangsa ini memiliki rambut pirang, mata biru, tengkorak
+                        panjang,
+                        dan muka
+                        sempit. Mereka
+                        banyak tinggil di Eropa Barat dan Eropa Utara, yaitu Norwegia, Inggris, Denmark, Belanda,
+                        Swedia, Belgia, dan Jerman bagian utara.
+                    </li>
 
-        </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex items-center justify-center">
+            <img src="{{ asset('img/materi/materi3/eropa/jenis-1.png') }}" width="350" alt="" data-aos="fade-up"
+                data-aos-delay="500" data-aos-anchor="#content">
+        </div>
+
 
     </div>
 

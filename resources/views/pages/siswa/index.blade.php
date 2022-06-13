@@ -23,9 +23,20 @@ Materi
     }
     
     $("#content").load(`/halaman-${halaman}`);
+    
+    if(halaman == 110) {
+        console.log('oke');
+        $('#navigasi').empty();
+        
+    }
 
     function next() {
+
         bunyi();
+        if(halaman == 110) {
+            console.log('oke');
+        }
+
         if(halaman == 55 || halaman == 66 || halaman == 88 || halaman == 99) {
             halaman = 7;
             localStorage.setItem('halaman', halaman);

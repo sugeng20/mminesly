@@ -49,7 +49,7 @@ class SiswaController extends Controller
 
     public function evaluasi()
     {
-        $evaluation = Evaluation::where('user_id', Auth::user()->id)->first();
+        $evaluation = Evaluation::where('user_id', Auth::user()->id)->orderBy('score', 'DESC')->first();
         $evaluations = Evaluation::with('user')->get();
         $cek = Evaluation::where('user_id', Auth::user()->id)->count();
         return view('pages.siswa.evaluasi.index', compact('evaluation', 'cek', 'evaluations'));

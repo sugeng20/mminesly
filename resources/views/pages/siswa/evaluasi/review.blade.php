@@ -18,7 +18,7 @@ Evaluasi
             $no = 1;
             @endphp
             @foreach ($answers as $answer)
-            <section class="mt-6 bg-{{ $answer->answer == $answer->question->key ? 'green' : 'red' }}-100 p-6"
+            <section class="mt-6 {{ $answer->answer == $answer->question->key ? 'bg-green-100' : 'bg-red-100' }} p-6"
                 id="halaman{{ $no }}">
 
                 <p class="text-style lg:text-lg mb-6">
@@ -27,25 +27,25 @@ Evaluasi
 
                 <div class="w-full flex items-center mb-4 sound">
                     <input type="radio" name="choice[{{ $no }}]" id="pilihan1_{{ $answer->id }}" value="a" class="mr-3"
-                        readonly {{ $answer->answer == 'a' ? 'checked' : '' }}>
+                        disabled {{ $answer->answer == 'a' ? 'checked' : '' }}>
                     <label for="pilihan1_{{ $answer->id }}">a. {{ $answer->question->a }}</label>
                 </div>
 
                 <div class="w-full flex items-center mb-4 sound">
                     <input type="radio" name="choice[{{ $no }}]" id="pilihan2_{{ $answer->id }}" value="b" class="mr-3"
-                        readonly {{ $answer->answer == 'b' ? 'checked' : '' }}>
+                        disabled {{ $answer->answer == 'b' ? 'checked' : '' }}>
                     <label for="pilihan2_{{ $answer->id }}">b. {{ $answer->question->b }}</label>
                 </div>
 
                 <div class="w-full flex items-center mb-4 sound">
                     <input type="radio" name="choice[{{ $no }}]" id="pilihan3_{{ $answer->question->id }}" value="c"
-                        class="mr-3" readonly {{ $answer->answer == 'c' ? 'checked' : '' }}>
+                        class="mr-3" disabled {{ $answer->answer == 'c' ? 'checked' : '' }}>
                     <label for="pilihan3_{{ $answer->id }}">c. {{ $answer->question->c }}</label>
                 </div>
 
                 <div class="w-full flex items-center sound">
                     <input type="radio" name="choice[{{ $no }}]" id="pilihan4_{{ $answer->id }}" value="d" class="mr-3"
-                        readonly {{ $answer->answer == 'd' ? 'checked' : '' }}>
+                        disabled {{ $answer->answer == 'd' ? 'checked' : '' }}>
                     <label for="pilihan4_{{ $answer->id }}">d. {{ $answer->question->d }}</label>
                 </div>
 

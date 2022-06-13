@@ -7,12 +7,12 @@
     <div class="w-full flex flex-wrap px-6" data-aos="fade-up" data-aos-delay="0">
         <div class="w-full lg:w-1/2 m-auto">
             <ul class="list-none text-style-primary ml-4 text-center">
-                <li>Buku Paket
+                <li class="py-4 bg-white shadow-lg mb-4">Buku Paket
                     IPS untuk
                     SMP/Mts kls IX
                     edisi revisi
                     2018.</li>
-                <li>
+                <li class="py-4 bg-white shadow-lg">
                     Muslih, Ahmad,
                     Iwan Setiawan,
                     dan Retno
@@ -31,7 +31,7 @@
             </ul>
         </div>
 
-        <div class="w-full lg:w-1/2 m-auto" data-aos="fade-up" data-aos-delay="500">
+        <div class="w-full lg:w-1/2 flex justify-center items-center" data-aos="fade-up" data-aos-delay="500">
             <img src="{{ asset('img/referensi.png') }}" width="350" alt="">
         </div>
 

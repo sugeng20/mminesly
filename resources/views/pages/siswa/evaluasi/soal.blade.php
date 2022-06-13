@@ -63,7 +63,7 @@ Evaluasi
                         </p>
                         <div class="flex justify-center mt-10">
                             <button type="button" onclick="prev()"
-                                class="py-3 px-10 bg-slate-400 cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500">Kembali</button>
+                                class="py-3 px-10 bg-[#FF525B] cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500">Kembali</button>
                             <button type="submit"
                                 class="py-3 px-10 bg-[#4BB15E] cursor-pointer text-white m-auto text-2xl rounded-full hover:opacity-80 hover:shadow-lg hover:scale-125 transition duration-500">Selesai</button>
                         </div>
@@ -119,25 +119,43 @@ Evaluasi
 
     </div>
 
+
+
+    @if(Auth::user()->role == 'SISWA')
+    <section id="navigasi1">
+        <div
+            class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
+            <a onclick="prev()" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
+                <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+            </a>
+            <a onclick="next()" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
+                <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
+            </a>
+        </div>
+    </section>
+
+    <section id="navigasi2" hidden>
+        <div
+            class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-center items-center bg-[#F2BA70] rounded-full shadow-xl">
+            <a onclick="prev()" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
+                <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
+            </a>
+
+        </div>
+    </section>
+
+    @else
     <div
         class="w-40 h-12 absolute -bottom-6 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-between items-center bg-[#F2BA70] rounded-full shadow-xl">
-
-        @if(Auth::user()->role == 'SISWA')
-        <a onclick="prev()" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
-            <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
-        </a>
-        <a onclick="next()" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
-            <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
-        </a>
-        @else
         <a href="{{ url('materi') }}" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
             <img src="{{ asset('img/ic_prev.png') }}" alt="" width="60">
         </a>
         <a href="{{ url('materi') }}" class="hover:scale-125 duration-500 ease-in-out cursor-pointer">
             <img src="{{ asset('img/ic_next.png') }}" alt="" width="60">
         </a>
-        @endif
     </div>
+    @endif
+
 </div>
 @endsection
 
@@ -150,6 +168,10 @@ Evaluasi
         bunyi();
         $(`#halaman${halaman}`).prop('hidden', true);
         halaman++;
+        if(halaman == 21) {
+            $('#navigasi1').prop('hidden', true);
+            $('#navigasi2').prop('hidden', false);
+        }
         $(`#halaman${halaman}`).prop('hidden', false);
     }
 
@@ -159,6 +181,10 @@ Evaluasi
         if(halaman != 1) {
             $(`#halaman${halaman}`).prop('hidden', true);
             halaman--;
+            if(halaman != 21) {
+                $('#navigasi1').prop('hidden', false);
+                $('#navigasi2').prop('hidden', true);
+            }
             $(`#halaman${halaman}`).prop('hidden', false);
         }
         

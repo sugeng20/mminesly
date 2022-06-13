@@ -5,23 +5,31 @@
 </div>
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
-    <div class="w-full px-8 mb-10">
+    <div class="w-full flex flex-wrap px-8 mb-10">
 
-        <img src="{{ asset('img/materi/materi3/eropa/jenis-2.png') }}" width="350" alt="" class="float-right ml-4"
-            data-aos="fade-up" data-aos-delay="500" data-aos-anchor="#content">
 
-        <ul class="text-style-primary ml-4 list-none" data-aos="fade-up" data-aos-delay="1000"
-            data-aos-anchor="#content">
 
-            <li>
-                <b>2. Bangsa Alpen</b>, ciri fisik memiliki rambut hitam, mata hitam, tengkorak lebar, dan tidak terlalu
-                tinggi.
-                Suku bangsa ini
-                banyak terdapat di Eropa Tengah dan Eropa Selatan, yaitu Perancis, Swiss, Polandia, Austria, dan
-                Jerman bagian selatan.
-            </li>
+        <div class="w-full lg:w-1/2 flex items-center justify-center">
+            <ul class="text-style-primary list-none" data-aos="fade-up" data-aos-delay="1000"
+                data-aos-anchor="#content">
 
-        </ul>
+                <li class="text-center">
+                    <b>2. Bangsa Alpen</b>, ciri fisik memiliki rambut hitam, mata hitam, tengkorak lebar, dan tidak
+                    terlalu
+                    tinggi.
+                    Suku bangsa ini
+                    banyak terdapat di Eropa Tengah dan Eropa Selatan, yaitu Perancis, Swiss, Polandia, Austria, dan
+                    Jerman bagian selatan.
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center items-center">
+            <img src="{{ asset('img/materi/materi3/eropa/jenis-2.png') }}" width="350" alt="" data-aos="fade-up"
+                data-aos-delay="500" data-aos-anchor="#content">
+        </div>
+
 
     </div>
 

@@ -20,7 +20,7 @@
             sebagai
             berikut:
         </p>
-        <ul class="text-style-primary ml-4 list-disc" data-aos="fade-up" data-aos-delay="1000"
+        <ul class="text-style-primary ml-4 list-decimal" data-aos="fade-up" data-aos-delay="1000"
             data-aos-anchor="#content">
             <li>
                 <b>Ras Negro</b>, yang mendiami sebelah selatan Gurun Sahara merupakan penduduk mayoritas. Ras Negro
