@@ -8,7 +8,8 @@
     <div class="w-full px-6">
         <img src="{{ asset('img/profil.png') }}" width="250" class="float-right" alt="" data-aos="fade-up"
             data-aos-anchor="#content" data-aos-delay="500">
-        <table class="text-primary-style" data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="1000">
+        <table class="text-primary-style lg:text-lg text-sm" data-aos="fade-up" data-aos-anchor="#content"
+            data-aos-delay="1000">
             <tr>
                 <td width="200">Nama Lengkap</td>
                 <td>:</td>

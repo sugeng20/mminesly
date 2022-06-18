@@ -3,38 +3,43 @@
     <span class="lg:text-3xl text-2xl text-[#622E2A] uppercase" style="font-family: 'BubbleWater'">Pengguna</span>
 </div>
 
-<div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
+<div class="overflow-y-scroll overflow-x-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
     <div class="w-full flex flex-wrap px-6">
-        <div class="w-full lg:w-1/2 flex justify-center" data-aos="fade-up" data-aos-anchor="#content"
-            data-aos-delay="500">
-            <table class="text-xl">
+        <div class="w-full lg:w-1/2 flex" data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="500">
+            <table class="text-lg">
                 <tr>
                     <td width="200">Nama Lengkap</td>
-                    <td>: {{ Auth::user()->nama_depan }}</td>
+                    <td>:</td>
+                    <td>{{ Auth::user()->nama_depan }}</td>
                 </tr>
                 <tr>
                     <td width="200">Nama Belakang</td>
-                    <td>: {{ Auth::user()->nama_belakang }}</td>
+                    <td>:</td>
+                    <td>{{ Auth::user()->nama_belakang }}</td>
                 </tr>
 
                 <tr>
                     <td width="200">Username</td>
-                    <td>: {{ Auth::user()->nama_belakang }}</td>
+                    <td>:</td>
+                    <td>{{ Auth::user()->nama_belakang }}</td>
                 </tr>
 
                 <tr>
                     <td width="200">NIS/NIK</td>
-                    <td>: {{ Auth::user()->nis_nik }}</td>
+                    <td>:</td>
+                    <td>{{ Auth::user()->nis_nik }}</td>
                 </tr>
 
                 <tr>
                     <td width="200">Email</td>
-                    <td>: {{ Auth::user()->email }}</td>
+                    <td>:</td>
+                    <td>{{ Auth::user()->email }}</td>
                 </tr>
 
                 <tr>
                     <td width="200">Role</td>
-                    <td>: {{ Auth::user()->role }}</td>
+                    <td>:</td>
+                    <td>{{ Auth::user()->role }}</td>
                 </tr>
 
 
