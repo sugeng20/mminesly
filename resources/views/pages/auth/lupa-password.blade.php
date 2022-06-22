@@ -21,7 +21,7 @@
     <div class="container flex flex-wrap mt-6">
 
         <div class="w-full">
-            <div class="w-4/5 h-min-[500px] bg-slate-50 shadow-xl px-4 py-6 rounded-3xl">
+            <div class="w-full lg:w-4/5 h-min-[500px] bg-slate-50 shadow-xl px-4 py-6 rounded-3xl">
                 <form action="{{ url('reset-password') }}" method="POST">
                     @csrf
                     <div class="w-full flex flex-wrap">

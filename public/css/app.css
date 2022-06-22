@@ -476,32 +476,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-top-7 {
   top: -1.75rem;
 }
-.bottom-6 {
-  bottom: 1.5rem;
-}
-.right-10 {
-  right: 2.5rem;
-}
-.bottom-3 {
-  bottom: 0.75rem;
-}
-.bottom-8 {
-  bottom: 2rem;
-}
-.bottom-10 {
-  bottom: 2.5rem;
-}
-.right-12 {
-  right: 3rem;
-}
-.right-14 {
-  right: 3.5rem;
+.bottom-12 {
+  bottom: 3rem;
 }
 .right-8 {
   right: 2rem;
-}
-.bottom-12 {
-  bottom: 3rem;
 }
 .z-10 {
   z-index: 10;
@@ -601,9 +580,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mr-6 {
   margin-right: 1.5rem;
-}
-.ml-2 {
-  margin-left: 0.5rem;
 }
 .block {
   display: block;
@@ -747,9 +723,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .overflow-hidden {
   overflow: hidden;
-}
-.overflow-scroll {
-  overflow: scroll;
 }
 .overflow-x-scroll {
   overflow-x: scroll;
@@ -1279,6 +1252,10 @@ body {
 
   .lg\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .lg\:w-4\/5 {
+    width: 80%;
   }
 
   .lg\:translate-x-0 {
