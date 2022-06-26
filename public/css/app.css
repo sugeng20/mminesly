@@ -647,9 +647,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[300px\] {
   width: 300px;
 }
-.w-4\/5 {
-  width: 80%;
-}
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -661,6 +658,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-1\/5 {
   width: 20%;
+}
+.w-4\/5 {
+  width: 80%;
 }
 .w-\[1000px\] {
   width: 1000px;
@@ -1234,6 +1234,10 @@ body {
     width: 400px;
   }
 
+  .lg\:w-4\/5 {
+    width: 80%;
+  }
+
   .lg\:w-2\/3 {
     width: 66.666667%;
   }
@@ -1252,10 +1256,6 @@ body {
 
   .lg\:w-4\/6 {
     width: 66.666667%;
-  }
-
-  .lg\:w-4\/5 {
-    width: 80%;
   }
 
   .lg\:translate-x-0 {

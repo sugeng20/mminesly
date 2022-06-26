@@ -1,6 +1,6 @@
 <div
     class="lg:w-96 w-72 h-16 absolute -top-7 left-1/2 -translate-x-1/2 bg-cover bg-center flex justify-center items-center bg-[#F2BA70] rounded-full shadow-lg">
-    <span class="lg:text-lg text-center text-lg text-[#622E2A] uppercase" style="font-family: 'BubbleWater'">Konsep
+    <span class="lg:text-lg text-center text-sm text-[#622E2A] uppercase" style="font-family: 'BubbleWater'">Konsep
         Dampak Interaksi Antarruang Benua
         Asia dan Benua Lainnya</span>
 </div>
