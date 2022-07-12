@@ -26,8 +26,13 @@
         @endif
     </div>
     <div class="w-full lg:w-1/2 flex h-full justify-center items-center">
-        <img src="{{ asset('img/evaluasi.png') }}" width="10000" class="float-right" alt="" data-aos="fade-up"
+        @if($evaluation->score > 75)
+        <img src="{{ asset('img/fun.png') }}" width="10000" class="float-right" alt="" data-aos="fade-up"
             data-aos-anchor="#content" data-aos-delay="2000">
+        @else
+        <img src="{{ asset('img/sad.png') }}" width="10000" class="float-right" alt="" data-aos="fade-up"
+            data-aos-anchor="#content" data-aos-delay="2000">
+        @endif
     </div>
 </div>
 @else

@@ -9,25 +9,30 @@
             data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="0">
         <ol class="list-decimal text-style-primary" data-aos="fade-up" data-aos-anchor="#content" data-aos-delay="500">
             <li>
-                Menjelaskan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas, iklim, geologi,
+                Menyebutkan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas, iklim, geologi,
                 rupa bumi, tata
                 air, tanah, flora dan fauna melalui peta rupa bumi.
             </li>
             <li>
-                Mendeskripsikan berbagai potensi Sumber Daya Alam seperti jenis sumber daya, penyebaran di darat dan
-                laut di Benua
-                Asia dan Benua Lainnya.
+                Menyebutkan negara-negara di Benua Asia dan Benua lainya, termasuk lokasi, iklim, bentuk muka bumi,
+                geologi, flora
+                dan fauna, serta kondisi penduduk.
             </li>
             <li>
-                Memahami Sumber Daya Manusia di Benua Asia dan Benua Lainnya, misalnya jumlah, sebaran, dan
-                komposisi; pertumbuhan;
-                kualitas (pendidikan, kesehatan, kesejahteraan serta keragaman etnik).
+                Menyebutkan berbagai potensi Sumber Daya Alam seperti jenis sumber daya, penyebaran di darat dan laut
+                di Benua Asia
+                dan Benua Lainnya.
             </li>
             <li>
-                Mendeskripsikan bentuk distribusi potensi wilayah Benua Asia dan Benua lainnya.
+                Menyebutkan Sumber Daya Manusia di Benua Asia dan Benua Lainnya, misalnya jumlah, sebaran, komposisi,
+                pertumbuhan,
+                dan kualitas (pendidikan, kesehatan, kesejahteraan serta keragaman etnik).
             </li>
             <li>
-                Menganalisis dampak interaksi antarruang terkait perdagangan dan mobilitas penduduk.
+                Menjelaskan bentuk distribusi potensi wilayah Benua Asia dan Benua Lainnya.
+            </li>
+            <li>
+                Menjelaskan dampak interaksi antarruang terkait perdagangan dan mobilitas penduduk.
             </li>
         </ol>
 

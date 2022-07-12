@@ -13,10 +13,10 @@
             Pembelajaran Umum:</p>
         <p class="leading-loose text-sm text-justify text-slate-900 max-w-xl lg:text-[14px] lg:leading-loose"
             data-aos="fade-up" data-aos-delay="1000" data-aos-anchor="#content">
-            Setelah mempelajari multimedia interaktif berbasis website ini, siswa mampu memahami perubahan interaksi
+            Setelah mempelajari multimedia interaktif berbasis website ini, siswa mampu menjelaskan perubahan interaksi
             antar negara
-            asia dan negara lain di dunia yang diakibatkan faktor alam, manusia dan pengaruhnya terhadap
-            keberlangsungan kehidupan
+            asia dan negara lain di dunia yang diakibatkan faktor alam, manusia dan pengaruhnya terhadap keberlangsungan
+            kehidupan
             manusia dalam ekonomi, sosial, pendidikan, dan politik.
         </p>
         <p class="leading-loose text-sm text-slate-900 lg:text-[18px] lg:leading-loose mt-6 font-bold"
@@ -27,22 +27,27 @@
         <ol class="list-decimal leading-loose text-justify text-sm max-w-xl text-slate-900 lg:text-[14px] lg:leading-loose ml-4"
             data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">
             <li>
-                Siswa mampu menjelaskan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas,
+                Siswa mampu menyebutkan kondisi geografis Benua Asia dan Benua lainnya, termasuk letak dan luas,
                 iklim, geologi, rupa
                 bumi, tata air, tanah, flora dan fauna melalui peta rupa bumi.
             </li>
             <li>
-                Siswa mampu mendeskripsikan berbagai potensi Sumber Daya Alam seperti jenis sumber daya, penyebaran
-                di darat dan laut
-                di Benua Asia dan Benua Lainnya.
+                Siswa mampu menyebutkan negara-negara di Benua Asia dan Benua lainya, termasuk lokasi, iklim, bentuk
+                muka bumi,
+                geologi, flora dan fauna, serta kondisi penduduk.
             </li>
             <li>
-                Siswa mampu mendeskripsikan Sumber Daya Manusia di Benua Asia dan Benua Lainnya, misalnya jumlah,
-                sebaran, dan
-                komposisi; pertumbuhan; kualitas.
+                Siswa mampu menyebutkan berbagai potensi Sumber Daya Alam seperti jenis sumber daya, penyebaran di
+                darat dan laut di
+                Benua Asia dan Benua Lainnya.
             </li>
             <li>
-                Siswa mampu mendeskripsikan bentuk distribusi potensi wilayah Benua Asia dan Benua Lainnya.
+                Siswa mampu menyebutkan Sumber Daya Manusia di Benua Asia dan Benua Lainnya, misalnya jumlah,
+                sebaran, komposisi,
+                pertumbuhan, dan kualitas.
+            </li>
+            <li>
+                Siswa mampu menjelaskan bentuk distribusi potensi wilayah Benua Asia dan Benua Lainnya.
             </li>
             <li>
                 Siswa mampu menjelaskan dampak interaksi antarruang terkait perdagangan dan mobilitas penduduk.
