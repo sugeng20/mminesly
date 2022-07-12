@@ -37,7 +37,7 @@ Materi
             console.log('oke');
         }
 
-        if(halaman == 55 || halaman == 66 || halaman == 88 || halaman == 99) {
+        if(halaman == 13 || halaman == 55 || halaman == 66 || halaman == 88 || halaman == 99) {
             halaman = 7;
             localStorage.setItem('halaman', halaman);
             $("#content").load(`/halaman-${halaman}`);
