@@ -11,8 +11,8 @@
         <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">
             Negara Jepang memiliki iklim sedang dengan empat musim yaitu musim semi, panas, gugur, dan dingin. Musim
             dimulai sekitar
-            bulan maret dan ditandai dnegan munculnya kuncup bunga plum. Setelah bungan plum berakhir, kemudian muncul
-            kuncup bungan
+            bulan maret dan ditandai dengan munculnya kuncup bunga plum. Setelah bunga plum berakhir, kemudian muncul
+            kuncup bunga
             sakura.
         </p>
         <p class="text-style-primary" data-aos="fade-up" data-aos-delay="2000" data-aos-anchor="#content">

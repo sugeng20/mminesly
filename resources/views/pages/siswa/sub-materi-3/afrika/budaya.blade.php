@@ -14,7 +14,7 @@
             kerajinan dari
             kulit, dan alat musik. Kerajinan patung biasanya menggunakan tema pasangan laki-laki dan perempuan,
             perempuan dan
-            anaknya, laki-laki dengan senjata dan binatan, dan orang asing. Musik dan tari penduduk asli
+            anaknya, laki-laki dengan senjata dan binatang, dan orang asing. Musik dan tari penduduk asli
         </p>
 
         <p class="text-style-primary" data-aos="fade-up" data-aos-delay="1500" data-aos-anchor="#content">

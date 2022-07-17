@@ -86,6 +86,7 @@
             </div>
         </div>
 
+        {{--
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
             <div class="w-1/5 px-2 lg:px-0">
                 <img src="{{ asset('img/petunjuk/kompetensi_dasar.png') }}" alt="" width="60">
@@ -113,6 +114,7 @@
                 </p>
             </div>
         </div>
+        --}}
 
         <div class="w-full lg:w-1/2 flex flex-wrap px-6 mb-6">
             <div class="w-1/5 px-2 lg:px-0">

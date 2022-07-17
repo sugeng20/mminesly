@@ -37,6 +37,7 @@
 
             <div class="px-5 mt-8">
                 <ul>
+                    {{--
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_kd.png') }}" width="30" class="group-hover:scale-150 duration-500"
                             alt="">
@@ -52,6 +53,7 @@
                             Indikator
                         </button>
                     </li>
+                    --}}
 
                     <li class="flex items-center mb-6 hover:scale-110 duration-500 ease-in-out">
                         <img src="{{ asset('/img/ic_tujuan.png') }}" width="30"

@@ -31,12 +31,16 @@ Route::get('/materi', [SiswaController::class, 'index']);
 Route::get('/halaman-1', function() {
     return view('pages.siswa.selamat-datang');
 });
+
+/*
 Route::get('/halaman-2', function() {
     return view('pages.siswa.kompetensi-dasar');
 });
 Route::get('/halaman-3', function() {
     return view('pages.siswa.indikator');
 });
+*/
+
 Route::get('/halaman-4', function() {
     return view('pages.siswa.tujuan-pembelajaran');
 });
@@ -66,9 +70,12 @@ Route::get('/halaman-11', function() {
 Route::get('/halaman-12', function() {
     return view('pages.siswa.sub-materi-1.benua-australia');
 });
+
+/*
 Route::get('/halaman-13', function() {
     return view('pages.siswa.sub-materi-1.orientasi');
 });
+*/
 
 // Negara Jepang
 Route::get('/halaman-14', function() {

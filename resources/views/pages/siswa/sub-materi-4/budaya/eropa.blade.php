@@ -18,7 +18,7 @@
                 Kebudayan eropa berakar dalam seni, arsitektur, musik, sastra, filsafat yang berasal dari masyarakat
                 eropa itu sendiri.
                 Namun pada kebudayaan eropa yang paling menonjol diantara lainnya yaitu karya seni maupun gaya
-                arsitektur bangunannya
+                arsitektur bangunannya.
                 Adapun arsitektur bangunan-bangunan yang ada dalam negara-negara di eropa, mayoritas bercirikan bangunan
                 kerajaan dikarenakan pada umumnya mengikuti arsitektur sejak zaman dahulu sehingga membuat eropa dikenal
                 dengan

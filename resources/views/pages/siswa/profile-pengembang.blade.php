@@ -5,50 +5,30 @@
 </div>
 
 <div class="overflow-y-scroll mt-8 relative flex flex-wrap h-[55vh] overflow-hidden">
-    <div class="w-full px-6">
-        <img src="{{ asset('img/profil.png') }}" width="250" class="float-right" alt="" data-aos="fade-up"
+    <div class="w-full px-6 mb-5">
+        <img src="{{ asset('img/profil.png') }}" width="300" class="float-right" alt="" data-aos="fade-up"
             data-aos-anchor="#content" data-aos-delay="500">
         <table class="text-primary-style lg:text-lg text-sm" data-aos="fade-up" data-aos-anchor="#content"
             data-aos-delay="1000">
             <tr>
-                <td width="200">Nama Lengkap</td>
-                <td>:</td>
+                <td width="200" style="vertical-align: top">Nama Lengkap</td>
+                <td style="vertical-align: top">:</td>
                 <td>Wisnu Aldy Padma Kusuma</td>
             </tr>
             <tr>
-                <td>NIM</td>
-                <td>:</td>
+                <td style="vertical-align: top">NIM</td>
+                <td style="vertical-align: top">:</td>
                 <td>1101618007</td>
             </tr>
             <tr>
-                <td>Tempat/Tanggal Lahir</td>
-                <td>:</td>
-                <td>Cirebon, 08 Juli 1999</td>
+                <td style="vertical-align: top">Tempat/Tanggal Lahir</td>
+                <td style="vertical-align: top">:</td>
+                <td style="vertical-align: top">Cirebon, 08 Juli 1999</td>
             </tr>
             <tr>
-                <td>Program Studi</td>
-                <td>:</td>
-                <td>Teknologi Pendidikan</td>
-            </tr>
-            <tr>
-                <td>Fakultas</td>
-                <td>:</td>
-                <td>Fakultas Ilmu Pendidikan</td>
-            </tr>
-            <tr>
-                <td>Universitas</td>
-                <td>:</td>
-                <td>Universitas Negeri Jakarta</td>
-            </tr>
-            <tr>
-                <td>Dosen Pembimbing 1</td>
-                <td>:</td>
-                <td>Retno Widyaningrum, S.Kom., M. M.</td>
-            </tr>
-            <tr>
-                <td>Dosen Pembimbing 2</td>
-                <td>:</td>
-                <td>Dra. Suprayekti, M.Pd.</td>
+                <td style="vertical-align: top">Program Studi</td>
+                <td style="vertical-align: top">:</td>
+                <td>Teknologi Pendidikan, Fakultas Ilmu Pendidikan, Universitas Negeri Jakarta</td>
             </tr>
             <tr>
                 <td style="vertical-align: top">Judul Skripsi</td>
@@ -57,6 +37,32 @@
                     di Dunia’ Untuk Kelas
                     IX di SMP Negeri 2 Lelea Indramayu</td>
             </tr>
+            <tr>
+                <td style="vertical-align: top">Ahli Media</td>
+                <td style="vertical-align: top">:</td>
+                <td>Dwiky Aliansyah</td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top">Ahli Materi</td>
+                <td style="vertical-align: top">:</td>
+                <td>Dra. Sri Pujiatun</td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top">Dosen Pembimbing 1</td>
+                <td style="vertical-align: top">:</td>
+                <td>Retno Widyaningrum, S.Kom., M. M.</td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top">Dosen Pembimbing 2</td>
+                <td style="vertical-align: top">:</td>
+                <td>Dra. Suprayekti, M.Pd.</td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top">Narahubung</td>
+                <td style="vertical-align: top">:</td>
+                <td>wisnualdymultimedia@gmail.com</td>
+            </tr>
+
 
 
         </table>

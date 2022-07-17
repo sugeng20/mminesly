@@ -12,7 +12,7 @@
                     SMP/Mts kls IX
                     edisi revisi
                     2018.</li>
-                <li class="py-4 bg-white shadow-lg">
+                <li class="py-5 px-5 bg-white shadow-lg">
                     Muslih, Ahmad,
                     Iwan Setiawan,
                     dan Retno

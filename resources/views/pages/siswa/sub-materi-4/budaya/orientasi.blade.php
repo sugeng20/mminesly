@@ -10,7 +10,7 @@
             oleh
             sekelompok etnis di Benua Asia maupun Benua Lainnya di Dunia. Adapun dari apa yang telah dijelaskan, tiap
             Benua memiliki
-            kebudayaanya tersendiri yang berasal dari masyarakat itu sendiri namun diantara yang disebutkan diatas maka
+            kebudayaanya tersendiri yang berasal dari masyarakat itu sendiri namun diantara yang disebutkan di atas maka
             hanya yang
             paling menjadi ciri khas yang dikenal oleh seluruh penduduk di seluruh Dunia sebagai berikut:
         </p>

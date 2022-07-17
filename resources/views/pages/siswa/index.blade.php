@@ -37,7 +37,7 @@ Materi
             console.log('oke');
         }
 
-        if(halaman == 13 || halaman == 55 || halaman == 66 || halaman == 88 || halaman == 99) {
+        if(halaman == 12 || halaman == 55 || halaman == 66 || halaman == 88 || halaman == 99) {
             halaman = 7;
             localStorage.setItem('halaman', halaman);
             $("#content").load(`/halaman-${halaman}`);
@@ -50,9 +50,21 @@ Materi
 
     function prev() {
         bunyi();
-        halaman--;
-        localStorage.setItem('halaman', halaman);
-        $("#content").load(`/halaman-${halaman}`);
+
+        if(halaman == 14 || halaman == 56 || halaman == 67 || halaman == 89 || halaman == 100) {
+            halaman = 7;
+            localStorage.setItem('halaman', halaman);
+            $("#content").load(`/halaman-${halaman}`);
+        } else {
+            if(halaman == 4) {
+                halaman = 2;
+            }
+            halaman--;
+            localStorage.setItem('halaman', halaman);
+            $("#content").load(`/halaman-${halaman}`);
+        }
+
+        
     
     }
 

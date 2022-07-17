@@ -47,10 +47,10 @@
                 pertumbuhan, dan kualitas.
             </li>
             <li>
-                Siswa mampu menjelaskan bentuk distribusi potensi wilayah Benua Asia dan Benua Lainnya.
+                Siswa mampu menyebutkan bentuk distribusi potensi wilayah Benua Asia dan Benua Lainnya.
             </li>
             <li>
-                Siswa mampu menjelaskan dampak interaksi antarruang terkait perdagangan dan mobilitas penduduk.
+                Siswa mampu menyebutkan dampak interaksi antarruang terkait perdagangan dan mobilitas penduduk.
             </li>
         </ol>
 
