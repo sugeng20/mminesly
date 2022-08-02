@@ -48,7 +48,7 @@
             <li>Klik “MULAI” untuk mulai menjawab soal evaluasi</li>
             <li>Evaluasi ini terdiri dari soal pilihan ganda, Anda diharapkan memilih jawaban yang benar</li>
             <li>Klik salah satu jawaban dan kemudian klik tombol “Next” untuk menuju pertanyaan selanjutnya</li>
-            <li>Jika Anda memperoleh skor 75, maka dapat klik tombol “Next” untuk menuju halaman berikutnya,
+            <li>Jika Anda memperoleh diatas skor 75, maka dapat klik tombol “Next” untuk menuju halaman berikutnya,
                 Sedangkan
                 jika Anda
                 memperoleh skor dibawah 75, maka dapat klik tombol “Mengulang” untuk melanjutkan pengerjaan soal

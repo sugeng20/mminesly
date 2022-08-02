@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ResetPasswordMail;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class AuthController extends Controller
 {
@@ -76,9 +78,10 @@ class AuthController extends Controller
     {
         $user = User::where('email', $request->email)->first();
         if($user) {
-            $password = Hash::make('123456');
-            $data = $user->update(['password' => $password]);
-            
+            $passwordbaru=rand(100000,999999);
+            $password=Hash::make($passwordbaru);
+            $user->update(['password'=>$password]);
+            Mail::to($request->email)->send(new ResetPasswordMail($passwordbaru, $user->nis_nik));
             return redirect('lupa-password')->with('success', 'Berhasil Reset Password');
         } else {
             return redirect('lupa-password')->with('error', 'Email Tidak ditemukan');

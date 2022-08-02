@@ -40,7 +40,7 @@
             <tr>
                 <td style="vertical-align: top">Ahli Media</td>
                 <td style="vertical-align: top">:</td>
-                <td>Dwiky Aliansyah</td>
+                <td>Dwiky Aliansyah, S.T</td>
             </tr>
             <tr>
                 <td style="vertical-align: top">Ahli Materi</td>
