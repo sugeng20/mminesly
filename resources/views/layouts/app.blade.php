@@ -125,9 +125,6 @@
             </div>
         </aside>
 
-
-
-
         <section class="w-full">
 
             <nav class="w-full bg-slate-100 h-[12vh] flex items-center">
